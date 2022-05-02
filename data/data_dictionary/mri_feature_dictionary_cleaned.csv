@@ -1,0 +1,328 @@
+VariableName,Category,ShortDescriptor,DataType,DataSource,MissingCodes,AllowableCodes,MissingRates
+MRIMO,MRI scan type and series-associated data,Month MRI performed,Numeric longitudinal,MRI DICOM header,,"0 - 12
+88 = Not applicable / no MRI available",0.0
+MRIDY,MRI scan type and series-associated data,Day MRI performed,Numeric longitudinal,MRI DICOM header,,"0 - 31
+88 = Not applicable / no MRI available",0.0
+MRIYR,MRI scan type and series-associated data,Year MRI performed,Numeric longitudinal,MRI DICOM header,,"2000  -  current year
+8888 = Not applicable / no MRI available",0.0
+NACCICV,Regional gray matter volumes,Total intracranial volume (cc),Numeric longitudinal,NACC derived,"8888.888 = Not applicable / no MRI available / calculations not performed
+9999.999 = Missing / could not calculate",,0.6773707087731748
+NACCWMVL,Regional gray matter volumes,Total white matter volume (cc),Numeric longitudinal,NACC derived,"8888.888 = Not applicable / no MRI available / calculations not performed
+9999.999 = Missing / could not calculate",,0.6773707087731748
+NACCBRNV,Regional gray matter volumes,Total brain volume (cc),Numeric longitudinal,NACC derived,"8888.888 = Not applicable / no MRI available / calculations not performed
+9999.999 = Missing / could not calculate",,0.5929211390047014
+CSFVOL,Regional gray matter volumes,Total brain cerebrospinal fluid volume (cc),Numeric longitudinal,IDeA Lab,"8888.8888 = Not applicable / no MRI available / calculations not per-
+formed
+9999.9999 = Missing / could not calculate",,0.5929211390047014
+GRAYVOL,Regional gray matter volumes,Total brain gray matter volume (cc),Numeric longitudinal,IDeA Lab,"8888.8888 = Not applicable / no MRI available / calculations not per-
+formed
+9999.9999 = Missing / could not calculate",,0.5929211390047014
+WHITEVOL,Regional gray matter volumes,Total brain white matter volume (cc),Numeric longitudinal,IDeA Lab,"8888.8888 = Not applicable / no MRI available / calculations not per-
+formed
+9999.9999 = Missing / could not calculate",,0.5929211390047014
+WMHVOL,Regional gray matter volumes,Total brain white matter hyperintensity volume (cc),Numeric longitudinal,IDeA Lab,"888.8888 = Not applicable / no MRI available / calculations not performed
+999.9999 = Missing / could not calculate",,0.6773707087731748
+CEREALL,Regional gray matter volumes,Total cerebrum cranial volume (cc),Numeric longitudinal,IDeA Lab,"8888.8888 = Not applicable / no MRI available / calculations not per-
+formed
+9999.9999 = Missing / could not calculate",,0.5930098465359709
+CERETISS,Regional gray matter volumes,Total cerebrum brain volume (cc),Numeric longitudinal,IDeA Lab,"8888.8888 = Not applicable / no MRI available / calculations not per-
+formed
+9999.9999 = Missing / could not calculate",,0.5930098465359709
+CERECSF,Regional gray matter volumes,Total cerebrum cerebrospinal fluid volume (cc),Numeric longitudinal,IDeA Lab,,,0.5930098465359709
+CEREGR,Regional gray matter volumes,Total cerebrum gray matter volume (cc),Numeric longitudinal,IDeA Lab,"8888.8888 = Not applicable / no MRI available / calculations not per-
+formed
+9999.9999 = Missing / could not calculate",,0.5930098465359709
+CEREWH,Regional gray matter volumes,Total cerebrum white matter volume (cc),Numeric longitudinal,IDeA Lab,"8888.8888 = Not applicable / no MRI available / calculations not per-
+formed
+9999.9999 = Missing / could not calculate",,0.5930098465359709
+LHIPPO,Regional gray matter volumes,Segmented left hippocampus volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5928324314734321
+RHIPPO,Regional gray matter volumes,Segmented right hippocampus volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5928324314734321
+HIPPOVOL,Regional gray matter volumes,Segmented total hippocampi volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5928324314734321
+LLATVENT,Regional gray matter volumes,Segmented left lateral ventricle volume (cc),Numeric longitudinal,IDeA Lab,"888.8888 = Not applicable / no MRI available / calculations not performed
+999.9999 = Missing / could not calculate",,0.5928324314734321
+RLATVENT,Regional gray matter volumes,Segmented right lateral ventricle volume (cc),Numeric longitudinal,IDeA Lab,"888.8888 = Not applicable / no MRI available / calculations not performed
+999.9999 = Missing / could not calculate",,0.5928324314734321
+LATVENT,Regional gray matter volumes,Segmented total lateral ventricle volume (cc),Numeric longitudinal,IDeA Lab,"888.8888 = Not applicable / no MRI available / calculations not performed
+999.9999 = Missing / could not calculate",,0.5928324314734321
+THIRVENT,Regional gray matter volumes,Segmented total third ventricle volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5928324314734321
+LFRCORT,Regional gray matter volumes,"Segmented left frontal lobe cortical gray matter
+volume (cc)",Numeric longitudinal,IDeA Lab,"888.8888 = Not applicable / no MRI available / calculations not performed
+999.9999 = Missing / could not calculate",,0.5928324314734321
+RFRCORT,Regional gray matter volumes,"Segmented right frontal lobe cortical gray matter
+volume (cc)",Numeric longitudinal,IDeA Lab,"888.8888 = Not applicable / no MRI available / calculations not performed
+999.9999 = Missing / could not calculate",,0.5928324314734321
+FRCORT,Regional gray matter volumes,"Segmented total frontal lobe cortical gray matter
+volume (cc)",Numeric longitudinal,IDeA Lab,"888.8888 = Not applicable / no MRI available / calculations not performed
+999.9999 = Missing / could not calculate",,0.5928324314734321
+LOCCORT,Regional gray matter volumes,"Segmented left occipital lobe cortical gray matter
+volume (cc)",Numeric longitudinal,IDeA Lab,"888.8888 = Not applicable / no MRI available / calculations not performed
+999.9999 = Missing / could not calculate",,0.5928324314734321
+ROCCORT,Regional gray matter volumes,"Segmented right occipital lobe cortical gray matter
+volume (cc)",Numeric longitudinal,IDeA Lab,"888.8888 = Not applicable / no MRI available / calculations not performed
+999.9999 = Missing / could not calculate",,0.5928324314734321
+OCCCORT,Regional gray matter volumes,"Segmented total occipital lobe cortical gray matter
+volume (cc)",Numeric longitudinal,IDeA Lab,"888.8888 = Not applicable / no MRI available / calculations not performed
+999.9999 = Missing / could not calculate",,0.5928324314734321
+LPARCORT,Regional gray matter volumes,"Segmented left parietal lobe cortical gray matter
+volume (cc)",Numeric longitudinal,IDeA Lab,"888.8888 = Not applicable / no MRI available / calculations not performed
+999.9999 = Missing / could not calculate",,0.5928324314734321
+RPARCORT,Regional gray matter volumes,"Segmented right parietal lobe cortical gray matter
+volume (cc)",Numeric longitudinal,IDeA Lab,"888.8888 = Not applicable / no MRI available / calculations not performed
+999.9999 = Missing / could not calculate",,0.5928324314734321
+PARCORT,Regional gray matter volumes,"Segmented total parietal lobe cortical gray matter
+volume (cc)",Numeric longitudinal,IDeA Lab,"888.8888 = Not applicable / no MRI available / calculations not performed
+999.9999 = Missing / could not calculate",,0.5928324314734321
+LTEMPCOR,Regional gray matter volumes,"Segmented left temporal lobe cortical gray matter
+volume (cc)",Numeric longitudinal,IDeA Lab,"888.8888 = Not applicable / no MRI available / calculations not performed
+999.9999 = Missing / could not calculate",,0.5928324314734321
+RTEMPCOR,Regional gray matter volumes,"Segmented right temporal lobe cortical gray
+matter volume (cc)",Numeric longitudinal,IDeA Lab,"888.8888 = Not applicable / no MRI available / calculations not performed
+999.9999 = Missing / could not calculate",,0.5928324314734321
+TEMPCOR,Regional gray matter volumes,"Segmented total temporal lobe cortical gray matter
+volume (cc)",Numeric longitudinal,IDeA Lab,"888.8888 = Not applicable / no MRI available / calculations not performed
+999.9999 = Missing / could not calculate",,0.5929211390047014
+LCAC,Regional cortical thicknesses,"Left caudal anterior cingulate gray matter volume
+(cc)",Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+RCAC,Regional cortical thicknesses,"Right caudal anterior cingulate gray matter volume
+(cc)",Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+LCMF,Regional cortical thicknesses,Left caudal middle frontal gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+RCMF,Regional cortical thicknesses,"Right caudal middle frontal gray matter volume
+(cc)",Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+LCUN,Regional cortical thicknesses,Left cuneus gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+RCUN,Regional cortical thicknesses,Right cuneus gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+LENT,Regional cortical thicknesses,Left entorhinal gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+RENT,Regional cortical thicknesses,Right entorhinal gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+LFUS,Regional cortical thicknesses,Left fusiform gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+RFUS,Regional cortical thicknesses,Right fusiform gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+LINFPAR,Regional cortical thicknesses,Left inferior parietal gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+RINFPAR,Regional cortical thicknesses,Right inferior parietal gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+LINFTEMP,Regional cortical thicknesses,Left inferior temporal gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+RINFTEMP,Regional cortical thicknesses,Right inferior temporal gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+LINSULA,Regional cortical thicknesses,Left insula gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+RINSULA,Regional cortical thicknesses,Right insula gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+LISTHC,Regional cortical thicknesses,Left isthmus cingulate gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+RISTHC,Regional cortical thicknesses,Right isthmus cingulate gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+LLATOCC,Regional cortical thicknesses,Left lateral occipital gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5931872615985098
+RLATOCC,Regional cortical thicknesses,Right lateral occipital gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+LLATORBF,Regional cortical thicknesses,Left lateral orbitofrontal gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+RLATORBF,Regional cortical thicknesses,Right lateral orbitofrontal gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+LLING,Regional cortical thicknesses,Left lingual gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+RLING,Regional cortical thicknesses,Right lingual gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+LMEDORBF,Regional cortical thicknesses,Left medial orbitofrontal gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+RMEDORBF,Regional cortical thicknesses,Right medial orbitofrontal gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+LMIDTEMP,Regional cortical thicknesses,Left middle temporal gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+RMIDTEMP,Regional cortical thicknesses,Right middle temporal gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+LPARCEN,Regional cortical thicknesses,Left paracentral gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+RPARCEN,Regional cortical thicknesses,Right paracentral gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+LPARHIP,Regional cortical thicknesses,Left parahippocampal gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+RPARHIP,Regional cortical thicknesses,Right parahippocampal gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+LPARSOP,Regional cortical thicknesses,Left pars opercularis gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+RPARSOP,Regional cortical thicknesses,Right pars opercularis gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+LPARORB,Regional cortical thicknesses,Left pars orbitalis gray matter volume (cc),Numeric longitudinal,IDeA Lab,"8.8888 = Not applicable / no MRI available / calculations not performed
+9.9999 = Missing / could not calculate",,0.5928324314734321
+RPARORB,Regional cortical thicknesses,Right pars orbitalis gray matter volume (cc),Numeric longitudinal,IDeA Lab,"8.8888 = Not applicable / no MRI available / calculations not performed
+9.9999 = Missing / could not calculate",,0.5928324314734321
+LPARTRI,Regional cortical thicknesses,Left pars triangularis gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+RPARTRI,Regional cortical thicknesses,Right pars triangularis gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+LPERCAL,Regional cortical thicknesses,Left pericalcarine gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+RPERCAL,Regional cortical thicknesses,Right pericalcarine gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+LPOSCEN,Regional cortical thicknesses,Left postcentral gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5930098465359709
+RPOSCEN,Regional cortical thicknesses,Right postcentral gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+LPOSCIN,Regional cortical thicknesses,Left posterior cingulate gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+RPOSCIN,Regional cortical thicknesses,Right posterior cingulate gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+LPRECEN,Regional cortical thicknesses,Left precentral gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+RPRECEN,Regional cortical thicknesses,Right precentral gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+LPRECUN,Regional cortical thicknesses,Left precuneus gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+RPRECUN,Regional cortical thicknesses,Right precuneus gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+LROSANC,Regional cortical thicknesses,"Left rostral anterior cingulate gray matter volume
+(cc)",Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+RROSANC,Regional cortical thicknesses,"Right rostral anterior cingulate gray matter volume
+(cc)",Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5929211390047014
+LROSMF,Regional cortical thicknesses,Left rostral middle frontal gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5930098465359709
+RROSMF,Regional cortical thicknesses,"Right rostral middle frontal gray matter volume
+(cc)",Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,0.5930985540672403
+LSUPFR,Regional cortical thicknesses,Left superior frontal gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,0.5929211390047014
+RSUPFR,Regional cortical thicknesses,Right superior frontal gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,0.5929211390047014
+LSUPPAR,Regional cortical thicknesses,Left superior parietal gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,0.5929211390047014
+RSUPPAR,Regional cortical thicknesses,Right superior parietal gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,0.5929211390047014
+LSUPTEM,Regional cortical thicknesses,Left superior temporal gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,0.5929211390047014
+RSUPTEM,Regional cortical thicknesses,Right superior temporal gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,0.5929211390047014
+LSUPMAR,Regional cortical thicknesses,Left supramarginal gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,0.5929211390047014
+RSUPMAR,Regional cortical thicknesses,Right supramarginal gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,0.5929211390047014
+LTRTEM,Regional cortical thicknesses,Left transverse temporal gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,0.5929211390047014
+RTRTEM,Regional cortical thicknesses,Right transverse temporal gray matter volume (cc),Numeric longitudinal,IDeA Lab,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,0.5928324314734321
+LCACM,PET scan data,"Left caudal anterior cingulate mean cortical
+thickness (mm)",Numeric longitudinal,IDeA Lab,,,0.5928324314734321
+RCACM,PET scan data,"Right caudal anterior cingulate mean cortical
+thickness (mm)",Numeric longitudinal,IDeA Lab,,,0.5928324314734321
+LCMFM,PET scan data,"Left caudal middle frontal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+RCMFM,PET scan data,"Right caudal middle frontal mean cortical
+thickness (mm)",Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+LCUNM,PET scan data,Left cuneus mean cortical thickness (mm),Numeric longitudinal,IDeA Lab,,,0.5928324314734321
+RCUNM,PET scan data,Right cuneus mean cortical thickness (mm),Numeric longitudinal,IDeA Lab,,,0.5928324314734321
+LENTM,PET scan data,Left entorhinal mean cortical thickness (mm),Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+RENTM,PET scan data,Right entorhinal mean cortical thickness (mm),Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+LFUSM,PET scan data,Left fusiform mean cortical thickness (mm),Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+RFUSM,PET scan data,Right fusiform mean cortical thickness (mm),Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+LINFPARM,PET scan data,Left inferior parietal mean cortical thickness (mm),Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+RINFPARM,PET scan data,"Right inferior parietal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+LINFTEMM,PET scan data,"Left inferior temporal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+RINFTEMM,PET scan data,"Right inferior temporal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+LINSULAM,PET scan data,Left insula mean cortical thickness (mm),Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+RINSULAM,PET scan data,Right insula mean cortical thickness (mm),Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+LISTHCM,PET scan data,"Left isthmus cingulate mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab,,,0.5928324314734321
+RISTHCM,PET scan data,"Right isthmus cingulate mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab,,,0.5928324314734321
+LLATOCCM,PET scan data,Left lateral occipital mean cortical thickness (mm),Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+RLATOCCM,PET scan data,"Right lateral occipital mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+LLATORBM,PET scan data,"Left lateral orbitofrontal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+RLATORBM,PET scan data,"Right lateral orbitofrontal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+LLINGM,PET scan data,Left lingual mean cortical thickness (mm),Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+RLINGM,PET scan data,Right lingual mean cortical thickness (mm),Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+LMEDORBM,PET scan data,"Left medial orbitofrontal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab,,,0.5928324314734321
+RMEDORBM,PET scan data,"Right medial orbitofrontal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab,,,0.5928324314734321
+LMIDTEMM,PET scan data,"Left middle temporal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+RMIDTEMM,PET scan data,"Right middle temporal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+LPARCENM,PET scan data,Left paracentral mean cortical thickness (mm),Numeric longitudinal,IDeA Lab,,,0.5928324314734321
+RPARCENM,PET scan data,Right paracentral mean cortical thickness (mm),Numeric longitudinal,IDeA Lab,,,0.5928324314734321
+LPARHIPM,PET scan data,"Left parahippocampal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab,,,0.5928324314734321
+RPARHIPM,PET scan data,"Right parahippocampal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab,,,0.5928324314734321
+LPARSOPM,PET scan data,"Left pars opercularis mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab,,,0.5928324314734321
+RPARSOPM,PET scan data,"Right pars opercularis mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab,,,0.5928324314734321
+LPARORBM,PET scan data,Left pars orbitalis mean cortical thickness (mm),Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+RPARORBM,PET scan data,Right pars orbitalis mean cortical thickness (mm),Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+LPARTRIM,PET scan data,"Left pars triangularis mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+RPARTRIM,PET scan data,"Right pars triangularis mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+LPERCALM,PET scan data,Left pericalcarine mean cortical thickness (mm),Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+RPERCALM,PET scan data,Right pericalcarine mean cortical thickness (mm),Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+LPOSCENM,PET scan data,Left postcentral mean cortical thickness (mm),Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+RPOSCENM,PET scan data,Right postcentral mean cortical thickness (mm),Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+LPOSCINM,PET scan data,"Left posterior cingulate mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab,,,0.5928324314734321
+RPOSCINM,PET scan data,"Right posterior cingulate mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab,,,0.5928324314734321
+LPRECENM,PET scan data,Left precentral mean cortical thickness (mm),Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+RPRECENM,PET scan data,Right precentral mean cortical thickness (mm),Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+LPRECUNM,PET scan data,Left precuneus mean cortical thickness (mm),Numeric longitudinal,IDeA Lab,,,0.5928324314734321
+RPRECUNM,PET scan data,Right precuneus mean cortical thickness (mm),Numeric longitudinal,IDeA Lab,,,0.5928324314734321
+LROSANCM,PET scan data,"Left rostral anterior cingulate mean cortical
+thickness (mm)",Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+RROSANCM,PET scan data,"Right rostral anterior cingulate mean cortical
+thickness (mm)",Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+LROSMFM,PET scan data,"Left rostral middle frontal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+RROSMFM,PET scan data,"Right rostral middle frontal mean cortical
+thickness (mm)",Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+LSUPFRM,PET scan data,Left superior frontal mean cortical thickness (mm),Numeric longitudinal,IDeA Lab,,,0.5928324314734321
+RSUPFRM,PET scan data,"Right superior frontal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab,,,0.5928324314734321
+LSUPPARM,PET scan data,"Left superior parietal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+RSUPPARM,PET scan data,"Right superior parietal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab,,,0.5929211390047014
+LSUPTEMM,PET scan data,"Left superior temporal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab,,,0.5928324314734321
+RSUPTEMM,PET scan data,"Right superior temporal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab,,,0.5928324314734321
+LSUPMARM,PET scan data,Left supramarginal mean cortical thickness (mm),Numeric longitudinal,IDeA Lab,,,0.5928324314734321
+RSUPMARM,PET scan data,Right supramarginal mean cortical thickness (mm),Numeric longitudinal,IDeA Lab,,,0.5928324314734321
+LTRTEMM,PET scan data,"Left transverse temporal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab,,,0.5928324314734321
+RTRTEMM,PET scan data,"Right transverse temporal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab,,,0.5928324314734321
+FRONTCSF,,,,,,,1.0
+FRONTGRY,,,,,,,1.0
+FRONTWHT,,,,,,,1.0
+NACCID,,,,,,,0.0
+NACCVNUM,,,,,,,0.0
+OCCIPCSF,,,,,,,1.0
+OCCIPGRY,,,,,,,1.0
+OCCIPWHT,,,,,,,1.0
+PARCSF,,,,,,,1.0
+PARGRY,,,,,,,1.0
+PARWHT,,,,,,,1.0
+TEMPCSF,,,,,,,1.0
+TEMPGRY,,,,,,,1.0
+TEMPWHT,,,,,,,1.0

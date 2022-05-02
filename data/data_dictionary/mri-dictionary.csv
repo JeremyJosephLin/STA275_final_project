@@ -1,0 +1,2020 @@
+Table of variables,,,,
+Section 1: MRI scan date data,,,,
+,Variable name,Short descriptor,Data type,Data source
+1,NACCDICO,DICOM image file available (y / n),Numeric longitudinal,NACC derived
+2,NACCNIFT,NIfTI image file available (y/n),Numeric longitudinal,NACC derived
+3,MRIMO,Month MRI performed,Numeric longitudinal,MRI DICOM header
+4,MRIDY,Day MRI performed,Numeric longitudinal,MRI DICOM header
+5,MRIYR,Year MRI performed,Numeric longitudinal,MRI DICOM header
+6,NACCMRIA,Subject age at time of MRI,Numeric longitudinal,NACC derived
+7,NACCMRFI,File locator variable,Character longitudinal,NACC derived
+8,NACCNMRI,Total number of MRI sessions,Numeric cross-sectional,NACC derived
+9,NACCMNUM,MRI session in chronological order,Numeric longitudinal,NACC derived
+10,NACCMRDY,"Days between MRI session and closest
+UDS visit",Numeric longitudinal,NACC derived
+11,NACCMRSA,At least one MRI scan available,Numeric longitudinal,NACC derived
+Section 2: MRI scan type and series-associated data,,,,
+,Variable name,Short descriptor,Data type,Data source
+11,MRIT1,MRI sequence type — T1,Numeric longitudinal,MRI DICOM header
+12,MRIT2,MRI sequence type — T2,Numeric longitudinal,MRI DICOM header
+13,MRIDTI,MRI sequence type — DTI,Numeric longitudinal,MRI DICOM header
+14,MRIDWI,MRI sequence type — DWI,Numeric longitudinal,MRI DICOM header
+15,MRIFLAIR,MRI sequence type — FLAIR,Numeric longitudinal,MRI DICOM header
+16,MRIOTHER,MRI sequence type — other,Numeric longitudinal,MRI DICOM header
+17,MRIFIELD,Magnetic field strength (T),Numeric longitudinal,MRI DICOM header
+18,MRIMANU,Manufacturer,Numeric longitudinal,MRI DICOM header
+19,MRIMODL,Manufacturer’s model name,Numeric longitudinal,MRI DICOM header
+Researchers Data Dictionary — Imaging Data Page 3,,,,
+,,,,
+Section 3: MRI calculated summary data,,,,
+Section 3a. Gross brain volumes,,,,
+,Variable name,Short descriptor,Data type,Data source
+20,NACCMVOL,Calculated summary data available (y / n),Numeric longitudinal,NACC derived
+21,NACCICV,Total intracranial volume (cc),Numeric longitudinal,NACC derived
+22,NACCWMVL,Total white matter volume (cc),Numeric longitudinal,NACC derived
+23,NACCBRNV,Total brain volume (cc),Numeric longitudinal,NACC derived
+24,CSFVOL,Total brain cerebrospinal fluid volume (cc),Numeric longitudinal,IDeA Lab
+25,GRAYVOL,Total brain gray matter volume (cc),Numeric longitudinal,IDeA Lab
+26,WHITEVOL,Total brain white matter volume (cc),Numeric longitudinal,IDeA Lab
+27,WMHVOL,Total brain white matter hyperintensity volume (cc),Numeric longitudinal,IDeA Lab
+28,CEREALL,Total cerebrum cranial volume (cc),Numeric longitudinal,IDeA Lab
+29,CERETISS,Total cerebrum brain volume (cc),Numeric longitudinal,IDeA Lab
+30,CERECSF,Total cerebrum cerebrospinal fluid volume (cc),Numeric longitudinal,IDeA Lab
+31,CEREGR,Total cerebrum gray matter volume (cc),Numeric longitudinal,IDeA Lab
+32,CEREWH,Total cerebrum white matter volume (cc),Numeric longitudinal,IDeA Lab
+33,LHIPPO,Segmented left hippocampus volume (cc),Numeric longitudinal,IDeA Lab
+34,RHIPPO,Segmented right hippocampus volume (cc),Numeric longitudinal,IDeA Lab
+35,HIPPOVOL,Segmented total hippocampi volume (cc),Numeric longitudinal,IDeA Lab
+36,LLATVENT,Segmented left lateral ventricle volume (cc),Numeric longitudinal,IDeA Lab
+37,RLATVENT,Segmented right lateral ventricle volume (cc),Numeric longitudinal,IDeA Lab
+38,LATVENT,Segmented total lateral ventricle volume (cc),Numeric longitudinal,IDeA Lab
+39,THIRVENT,Segmented total third ventricle volume (cc),Numeric longitudinal,IDeA Lab
+40,LFRCORT,"Segmented left frontal lobe cortical gray matter
+volume (cc)",Numeric longitudinal,IDeA Lab
+41,RFRCORT,"Segmented right frontal lobe cortical gray matter
+volume (cc)",Numeric longitudinal,IDeA Lab
+Researchers Data Dictionary — Imaging Data Page 4,,,,
+,,,,
+,Variable name,Short descriptor,Data type,Data source
+42,FRCORT,"Segmented total frontal lobe cortical gray matter
+volume (cc)",Numeric longitudinal,IDeA Lab
+43,LOCCORT,"Segmented left occipital lobe cortical gray matter
+volume (cc)",Numeric longitudinal,IDeA Lab
+44,ROCCORT,"Segmented right occipital lobe cortical gray matter
+volume (cc)",Numeric longitudinal,IDeA Lab
+45,OCCCORT,"Segmented total occipital lobe cortical gray matter
+volume (cc)",Numeric longitudinal,IDeA Lab
+46,LPARCORT,"Segmented left parietal lobe cortical gray matter
+volume (cc)",Numeric longitudinal,IDeA Lab
+47,RPARCORT,"Segmented right parietal lobe cortical gray matter
+volume (cc)",Numeric longitudinal,IDeA Lab
+48,PARCORT,"Segmented total parietal lobe cortical gray matter
+volume (cc)",Numeric longitudinal,IDeA Lab
+49,LTEMPCOR,"Segmented left temporal lobe cortical gray matter
+volume (cc)",Numeric longitudinal,IDeA Lab
+50,RTEMPCOR,"Segmented right temporal lobe cortical gray
+matter volume (cc)",Numeric longitudinal,IDeA Lab
+51,TEMPCOR,"Segmented total temporal lobe cortical gray matter
+volume (cc)",Numeric longitudinal,IDeA Lab
+Section 3b. Regional gray matter volumes,,,,
+52,LCAC,"Left caudal anterior cingulate gray matter volume
+(cc)",Numeric longitudinal,IDeA Lab
+53,RCAC,"Right caudal anterior cingulate gray matter volume
+(cc)",Numeric longitudinal,IDeA Lab
+54,LCMF,Left caudal middle frontal gray matter volume (cc),Numeric longitudinal,IDeA Lab
+55,RCMF,"Right caudal middle frontal gray matter volume
+(cc)",Numeric longitudinal,IDeA Lab
+56,LCUN,Left cuneus gray matter volume (cc),Numeric longitudinal,IDeA Lab
+57,RCUN,Right cuneus gray matter volume (cc),Numeric longitudinal,IDeA Lab
+58,LENT,Left entorhinal gray matter volume (cc),Numeric longitudinal,IDeA Lab
+Researchers Data Dictionary — Imaging Data Page 5,,,,
+,,,,
+,Variable name,Short descriptor,Data type,Data source
+59,RENT,Right entorhinal gray matter volume (cc),Numeric longitudinal,IDeA Lab
+60,LFUS,Left fusiform gray matter volume (cc),Numeric longitudinal,IDeA Lab
+61,RFUS,Right fusiform gray matter volume (cc),Numeric longitudinal,IDeA Lab
+62,LINFPAR,Left inferior parietal gray matter volume (cc),Numeric longitudinal,IDeA Lab
+63,RINFPAR,Right inferior parietal gray matter volume (cc),Numeric longitudinal,IDeA Lab
+64,LINFTEMP,Left inferior temporal gray matter volume (cc),Numeric longitudinal,IDeA Lab
+65,RINFTEMP,Right inferior temporal gray matter volume (cc),Numeric longitudinal,IDeA Lab
+66,LINSULA,Left insula gray matter volume (cc),Numeric longitudinal,IDeA Lab
+67,RINSULA,Right insula gray matter volume (cc),Numeric longitudinal,IDeA Lab
+68,LISTHC,Left isthmus cingulate gray matter volume (cc),Numeric longitudinal,IDeA Lab
+69,RISTHC,Right isthmus cingulate gray matter volume (cc),Numeric longitudinal,IDeA Lab
+70,LLATOCC,Left lateral occipital gray matter volume (cc),Numeric longitudinal,IDeA Lab
+71,RLATOCC,Right lateral occipital gray matter volume (cc),Numeric longitudinal,IDeA Lab
+72,LLATORBF,Left lateral orbitofrontal gray matter volume (cc),Numeric longitudinal,IDeA Lab
+73,RLATORBF,Right lateral orbitofrontal gray matter volume (cc),Numeric longitudinal,IDeA Lab
+74,LLING,Left lingual gray matter volume (cc),Numeric longitudinal,IDeA Lab
+75,RLING,Right lingual gray matter volume (cc),Numeric longitudinal,IDeA Lab
+76,LMEDORBF,Left medial orbitofrontal gray matter volume (cc),Numeric longitudinal,IDeA Lab
+77,RMEDORBF,Right medial orbitofrontal gray matter volume (cc),Numeric longitudinal,IDeA Lab
+78,LMIDTEMP,Left middle temporal gray matter volume (cc),Numeric longitudinal,IDeA Lab
+79,RMIDTEMP,Right middle temporal gray matter volume (cc),Numeric longitudinal,IDeA Lab
+80,LPARCEN,Left paracentral gray matter volume (cc),Numeric longitudinal,IDeA Lab
+81,RPARCEN,Right paracentral gray matter volume (cc),Numeric longitudinal,IDeA Lab
+82,LPARHIP,Left parahippocampal gray matter volume (cc),Numeric longitudinal,IDeA Lab
+83,RPARHIP,Right parahippocampal gray matter volume (cc),Numeric longitudinal,IDeA Lab
+Researchers Data Dictionary — Imaging Data Page 6,,,,
+,,,,
+,Variable name,Short descriptor,Data type,Data source
+84,LPARSOP,Left pars opercularis gray matter volume (cc),Numeric longitudinal,IDeA Lab
+85,RPARSOP,Right pars opercularis gray matter volume (cc),Numeric longitudinal,IDeA Lab
+86,LPARORB,Left pars orbitalis gray matter volume (cc),Numeric longitudinal,IDeA Lab
+87,RPARORB,Right pars orbitalis gray matter volume (cc),Numeric longitudinal,IDeA Lab
+88,LPARTRI,Left pars triangularis gray matter volume (cc),Numeric longitudinal,IDeA Lab
+89,RPARTRI,Right pars triangularis gray matter volume (cc),Numeric longitudinal,IDeA Lab
+90,LPERCAL,Left pericalcarine gray matter volume (cc),Numeric longitudinal,IDeA Lab
+91,RPERCAL,Right pericalcarine gray matter volume (cc),Numeric longitudinal,IDeA Lab
+92,LPOSCEN,Left postcentral gray matter volume (cc),Numeric longitudinal,IDeA Lab
+93,RPOSCEN,Right postcentral gray matter volume (cc),Numeric longitudinal,IDeA Lab
+94,LPOSCIN,Left posterior cingulate gray matter volume (cc),Numeric longitudinal,IDeA Lab
+95,RPOSCIN,Right posterior cingulate gray matter volume (cc),Numeric longitudinal,IDeA Lab
+96,LPRECEN,Left precentral gray matter volume (cc),Numeric longitudinal,IDeA Lab
+97,RPRECEN,Right precentral gray matter volume (cc),Numeric longitudinal,IDeA Lab
+98,LPRECUN,Left precuneus gray matter volume (cc),Numeric longitudinal,IDeA Lab
+99,RPRECUN,Right precuneus gray matter volume (cc),Numeric longitudinal,IDeA Lab
+100,LROSANC,"Left rostral anterior cingulate gray matter volume
+(cc)",Numeric longitudinal,IDeA Lab
+101,RROSANC,"Right rostral anterior cingulate gray matter volume
+(cc)",Numeric longitudinal,IDeA Lab
+102,LROSMF,Left rostral middle frontal gray matter volume (cc),Numeric longitudinal,IDeA Lab
+103,RROSMF,"Right rostral middle frontal gray matter volume
+(cc)",Numeric longitudinal,IDeA Lab
+104,LSUPFR,Left superior frontal gray matter volume (cc),Numeric longitudinal,IDeA Lab
+105,RSUPFR,Right superior frontal gray matter volume (cc),Numeric longitudinal,IDeA Lab
+106,LSUPPAR,Left superior parietal gray matter volume (cc),Numeric longitudinal,IDeA Lab
+107,RSUPPAR,Right superior parietal gray matter volume (cc),Numeric longitudinal,IDeA Lab
+Researchers Data Dictionary — Imaging Data,,,Page 7,
+,,,,
+,Variable name,Short descriptor,Data type,Data source
+108,LSUPTEM,Left superior temporal gray matter volume (cc),Numeric longitudinal,IDeA Lab
+109,RSUPTEM,Right superior temporal gray matter volume (cc),Numeric longitudinal,IDeA Lab
+110,LSUPMAR,Left supramarginal gray matter volume (cc),Numeric longitudinal,IDeA Lab
+111,RSUPMAR,Right supramarginal gray matter volume (cc),Numeric longitudinal,IDeA Lab
+112,LTRTEM,Left transverse temporal gray matter volume (cc),Numeric longitudinal,IDeA Lab
+113,RTRTEM,Right transverse temporal gray matter volume (cc),Numeric longitudinal,IDeA Lab
+Section 3c. Regional cortical thicknesses,,,,
+114,LCACM,"Left caudal anterior cingulate mean cortical
+thickness (mm)",Numeric longitudinal,IDeA Lab
+115,RCACM,"Right caudal anterior cingulate mean cortical
+thickness (mm)",Numeric longitudinal,IDeA Lab
+116,LCMFM,"Left caudal middle frontal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab
+117,RCMFM,"Right caudal middle frontal mean cortical
+thickness (mm)",Numeric longitudinal,IDeA Lab
+118,LCUNM,Left cuneus mean cortical thickness (mm),Numeric longitudinal,IDeA Lab
+119,RCUNM,Right cuneus mean cortical thickness (mm),Numeric longitudinal,IDeA Lab
+120,LENTM,Left entorhinal mean cortical thickness (mm),Numeric longitudinal,IDeA Lab
+121,RENTM,Right entorhinal mean cortical thickness (mm),Numeric longitudinal,IDeA Lab
+122,LFUSM,Left fusiform mean cortical thickness (mm),Numeric longitudinal,IDeA Lab
+123,RFUSM,Right fusiform mean cortical thickness (mm),Numeric longitudinal,IDeA Lab
+124,LINFPARM,Left inferior parietal mean cortical thickness (mm),Numeric longitudinal,IDeA Lab
+125,RINFPARM,"Right inferior parietal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab
+126,LINFTEMM,"Left inferior temporal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab
+127,RINFTEMM,"Right inferior temporal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab
+Researchers Data Dictionary — Imaging Data Page 8,,,,
+,,,,
+,Variable name,Short descriptor,Data type,Data source
+128,LINSULAM,Left insula mean cortical thickness (mm),Numeric longitudinal,IDeA Lab
+129,RINSULAM,Right insula mean cortical thickness (mm),Numeric longitudinal,IDeA Lab
+130,LISTHCM,"Left isthmus cingulate mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab
+131,RISTHCM,"Right isthmus cingulate mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab
+132,LLATOCCM,Left lateral occipital mean cortical thickness (mm),Numeric longitudinal,IDeA Lab
+133,RLATOCCM,"Right lateral occipital mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab
+134,LLATORBM,"Left lateral orbitofrontal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab
+135,RLATORBM,"Right lateral orbitofrontal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab
+136,LLINGM,Left lingual mean cortical thickness (mm),Numeric longitudinal,IDeA Lab
+137,RLINGM,Right lingual mean cortical thickness (mm),Numeric longitudinal,IDeA Lab
+138,LMEDORBM,"Left medial orbitofrontal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab
+139,RMEDORBM,"Right medial orbitofrontal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab
+140,LMIDTEMM,"Left middle temporal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab
+141,RMIDTEMM,"Right middle temporal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab
+142,LPARCENM,Left paracentral mean cortical thickness (mm),Numeric longitudinal,IDeA Lab
+143,RPARCENM,Right paracentral mean cortical thickness (mm),Numeric longitudinal,IDeA Lab
+144,LPARHIPM,"Left parahippocampal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab
+145,RPARHIPM,"Right parahippocampal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab
+146,LPARSOPM,"Left pars opercularis mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab
+Researchers Data Dictionary — Imaging Data Page 9,,,,
+,,,,
+,Variable name,Short descriptor,Data type,Data source
+147,RPARSOPM,"Right pars opercularis mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab
+148,LPARORBM,Left pars orbitalis mean cortical thickness (mm),Numeric longitudinal,IDeA Lab
+149,RPARORBM,Right pars orbitalis mean cortical thickness (mm),Numeric longitudinal,IDeA Lab
+150,LPARTRIM,"Left pars triangularis mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab
+151,RPARTRIM,"Right pars triangularis mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab
+152,LPERCALM,Left pericalcarine mean cortical thickness (mm),Numeric longitudinal,IDeA Lab
+153,RPERCALM,Right pericalcarine mean cortical thickness (mm),Numeric longitudinal,IDeA Lab
+154,LPOSCENM,Left postcentral mean cortical thickness (mm),Numeric longitudinal,IDeA Lab
+155,RPOSCENM,Right postcentral mean cortical thickness (mm),Numeric longitudinal,IDeA Lab
+156,LPOSCINM,"Left posterior cingulate mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab
+157,RPOSCINM,"Right posterior cingulate mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab
+158,LPRECENM,Left precentral mean cortical thickness (mm),Numeric longitudinal,IDeA Lab
+159,RPRECENM,Right precentral mean cortical thickness (mm),Numeric longitudinal,IDeA Lab
+160,LPRECUNM,Left precuneus mean cortical thickness (mm),Numeric longitudinal,IDeA Lab
+161,RPRECUNM,Right precuneus mean cortical thickness (mm),Numeric longitudinal,IDeA Lab
+162,LROSANCM,"Left rostral anterior cingulate mean cortical
+thickness (mm)",Numeric longitudinal,IDeA Lab
+163,RROSANCM,"Right rostral anterior cingulate mean cortical
+thickness (mm)",Numeric longitudinal,IDeA Lab
+164,LROSMFM,"Left rostral middle frontal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab
+165,RROSMFM,"Right rostral middle frontal mean cortical
+thickness (mm)",Numeric longitudinal,IDeA Lab
+166,LSUPFRM,Left superior frontal mean cortical thickness (mm),Numeric longitudinal,IDeA Lab
+167,RSUPFRM,"Right superior frontal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab
+Researchers Data Dictionary — Imaging Data,,,Page 10,
+,,,,
+,Variable name,Short descriptor,Data type,Data source
+168,LSUPPARM,"Left superior parietal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab
+169,RSUPPARM,"Right superior parietal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab
+170,LSUPTEMM,"Left superior temporal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab
+171,RSUPTEMM,"Right superior temporal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab
+172,LSUPMARM,Left supramarginal mean cortical thickness (mm),Numeric longitudinal,IDeA Lab
+173,RSUPMARM,Right supramarginal mean cortical thickness (mm),Numeric longitudinal,IDeA Lab
+174,LTRTEMM,"Left transverse temporal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab
+175,RTRTEMM,"Right transverse temporal mean cortical thickness
+(mm)",Numeric longitudinal,IDeA Lab
+Section 4: PET scan data,,,,
+176,APETMO,Month amyloid PET scan performed,Numeric longitudinal,"PET DICOM
+header"
+177,APETDY,Day amyloid PET scan performed,Numeric longitudinal,"PET DICOM
+header"
+178,APETYR,Year amyloid PET scan performed,Numeric longitudinal,"PET DICOM
+header"
+179,NACCAPTA,Subject age at time of amyloid PET scan,Numeric longitudinal,NACC derived
+19-,NACCAPTF,Amyloid PET scan file locator variable,Character longitudinal,NACC derived
+181,NACCAPNM,Amyloid PET scan in chronological order,Numeric longitudinal,NACC derived
+182,NACCAPTD,"Days between amyloid PET scan and closest UDS
+visit",Numeric longitudinal,NACC derived
+183,APETMANU,Manufacturer,Numeric longitudinal,"PET DICOM
+header"
+184,APETMODL,Manufacturer’s model name,Numeric longitudinal,"PET DICOM
+header"
+185,NACCNAPA,Total number of amyloid PET scans available,Numeric cross-sectional,NACC derived
+Researchers Data Dictionary — Imaging Data,,,Page 11,
+,,,,
+,Variable name,Short descriptor,Data type,Data source
+186,NACCAPSA,At least one amyloid PET scan available (y/n),Numeric cross-sectional,NACC derived
+187,LIGANDN,Amyloid tracer used for PET scan,Numeric longitudinal,ADC
+Researchers Data Dictionary — Imaging Data Page 12,,,,
+,,,,
+Variable definitions,,,,
+Section 1: MRI scan date information,,,,
+1,Variable name,NACCDICO,,
+,Short descriptor,DICOM image file available (y / n),,
+,Data type,Numeric longitudinal,,
+,Data source,NACC derived,,
+,Allowable codes,"0 = No, MRI DICOM format not available
+1 = Yes, MRI DICOM format available",,
+,Description / derivation,This variable flags MRI scans that are available in DICOM format.,,
+2,Variable name,NACCNIFT,,
+,Short descriptor,NIfTI image file available (y / n),,
+,Data type,Numeric longitudinal,,
+,Data source,NACC derived,,
+,Allowable codes,"0 = No, MRI NIfTI format not available
+1 = Yes, MRI NIfTI format available",,
+,Description / derivation,This variable flags MRI scans that are available in NIfTI format.,,
+3,Variable name,MRIMO,,
+,Short descriptor,Month MRI performed,,
+,Data type,Numeric longitudinal,,
+,Data source,MRI DICOM header,,
+,Allowable codes,"0–12
+88 = Not applicable / no MRI available",,
+,Description / derivation,This variable indicates the month during which the MRI was performed.,,
+4,Variable name,MRIDY,,
+,Short descriptor,Day MRI performed,,
+,Data type,Numeric longitudinal,,
+,Data source,MRI DICOM header,,
+,Allowable codes,"0–31
+88 = Not applicable / no MRI available",,
+,Description / derivation,"This variable indicates the day of the month during which the MRI
+was performed.",,
+5,Variable name,MRIYR,,
+,Short descriptor,Year MRI performed,,
+,Data type,Numeric longitudinal,,
+,Data source,MRI DICOM header,,
+,Allowable codes,"2000 – current year
+8888 = Not applicable / no MRI available",,
+,Description / derivation,This variable indicates the year during which the MRI was performed.,,
+Researchers Data Dictionary — Imaging Data,,Page 13,,
+,,,,
+6,Variable name,NACCMRIA,,
+,Short descriptor,Subject age at time of MRI,,
+,Data type,Numeric longitudinal,,
+,Data source,NACC derived,,
+,Allowable codes,"18 –120
+888 = Not applicable / no MRI available",,
+,Description / derivation,"This variable provides the subject’s age at the time of the MRI session. Birth
+month and birth year are required elements in the UDS; however, birth day
+is not collected. To calculate age at MRI, birth day is set to 1 for all UDS
+subjects, and NACCMRIA is computed as MRI date – birth date.",,
+7,Variable name,NACCMRFI,,
+,Short descriptor,MRI file locator variable,,
+,Data type,Character longitudinal,,
+,Data source,NACC derived,,
+,Allowable codes,"“MRI” followed by four digits and “.zip”
+Blank = No file available / no MRI available",,
+,Description / derivation,This variable provides a unique identifier for the MRI zip file.,,
+8,Variable name,NACCNMRI,,
+,Short descriptor,Total number of MRI sessions,,
+,Data type,Numeric cross-sectional,,
+,Data source,NACC derived,,
+,Allowable codes,"1– 20
+88 = Not applicable / no MRI available",,
+,Description / derivation,"This variable provides the number of MRI sessions a UDS subject has in the
+NACC database, regardless of time between sessions. Note that while this
+variable is listed for all visits, it does not change across visits; it is cross-sec-
+tional.",,
+9,Variable name,NACCMNUM,,
+,Short descriptor,MRI session in chronological order,,
+,Data type,Numeric longitudinal,,
+,Data source,NACC derived,,
+,Allowable codes,"1– 20
+88 = Not applicable / no MRI available",,
+,Description / derivation,"This variable assigns a number to each MRI session per subject ID, in
+chronological order, beginning with the first MRI available at NACC.",,
+Researchers Data Dictionary — Imaging Data,,Page 14,,
+,,,,
+10,Variable name,NACCMRDY,,
+,Short descriptor,Days between MRI and closest UDS visit,,
+,Data type,Numeric longitudinal,,
+,Data source,NACC derived,,
+,Allowable codes,"–3650 to 3650
+8888 = Not applicable / no MRI available",,
+,Description / derivation,"This variable is the MRI date minus the closest UDS visit date for every
+MRI. For MRI sessions the closest visit date, NACCMRDY < 0, and for MRI
+sessions after the closest visit date, NACCMRDY > 0.",,
+11,Variable name,NACCMRSA,,
+,Short descriptor,At least one MRI scan available,,
+,Data type,Numeric cross-sectional,,
+,Data source,NACC derived,,
+,Allowable codes,"0 = No; does not have at least one MRI available at NACC
+1 = Yes; has at least one MRI available at NACC",,
+,Description / derivation,Records the volume of temporal CSF for a given MRI.,,
+Section 2: MRI sequence type and other series-associated data,,,,
+11,Variable name,MRIT1,,
+,Short descriptor,MRI sequence type — T1,,
+,Data type,Numeric longitudinal,,
+,Data source,MRI DICOM header,,
+,Allowable codes,"0 = T1 not available
+1 = T1 available
+8 = Not applicable / no MRI available",,
+,Description / derivation,"This variable is determined from the DICOM tag (0008,103E) “Series
+Description” in the MR image header.",,
+12,Variable name,MRIT2,,
+,Short descriptor,MRI sequence type — T2,,
+,Data type,Numeric longitudinal,,
+,Data source,MRI DICOM header,,
+,Allowable codes,"0 = T2 not available
+1 = T2 available
+8 = Not applicable / no MRI available",,
+,Description / derivation,"This variable is determined from the DICOM tag (0008,103E) “Series
+Description” in the MR image header.",,
+Researchers Data Dictionary — Imaging Data,,Page 15,,
+,,,,
+13,Variable name,MRIDTI,,
+,Short descriptor,MRI sequence type — DTI,,
+,Data type,Numeric longitudinal,,
+,Data source,MRI DICOM header,,
+,Allowable codes,"0 = DTI not available
+1 = DTI available
+8 = Not applicable / no MRI available",,
+,Description / derivation,"This variable is determined from the DICOM tag (0008,103E) “Series
+Description” in the MR image header.",,
+14,Variable name,MRIDWI,,
+,Short descriptor,MRI sequence type — DWI,,
+,Data type,Numeric longitudinal,,
+,Data source,MRI DICOM header,,
+,Allowable codes,"0 = DWI not available
+1 = DWI available
+8 = Not applicable / no MRI available",,
+,Description / derivation,"This variable is determined from the DICOM tag (0008,103E) “Series
+Description” in the MR image header.",,
+15,Variable name,MRIFLAIR,,
+,Short descriptor,MRI sequence type — FLAIR,,
+,Data type,Numeric longitudinal,,
+,Data source,MRI DICOM header,,
+,Allowable codes,"0 = Flair not available
+1 = Flair available
+8 = Not applicable / no MRI available",,
+,Description / derivation,"This variable is determined from the DICOM tag (0008,103E) “Series
+Description” in the MR image header.",,
+16,Variable name,MRIOTHER,,
+,Short descriptor,MRI sequence type — other,,
+,Data type,Numeric longitudinal,,
+,Data source,MRI DICOM header,,
+,Allowable codes,"0 = Other scan type not available
+1 = Other scan type available
+8 = Not applicable / no MRI available",,
+,Description / derivation,"This variable is determined from the DICOM tag (0008,103E) “Series
+Description” in the MR image header.",,
+Researchers Data Dictionary — Imaging Data,,Page 16,,
+,,,,
+17,Variable name,MRIFIELD,,
+,Short descriptor,Magnetic field strength (T),,
+,Data type,Numeric longitudinal,,
+,Data source,MRI DICOM header,,
+,Allowable codes,1,=,1.5
+,,2,=,3.0
+,,5,=,Other
+,,7,=,Field strength varies across images
+,,8,=,Not applicable / no MRI available
+,,9,=,Missing / unknown
+,Description / derivation,"This variable is derived from the DICOM tag (0018,0087) “Magnetic field",,
+,,"strength” in the MR image header. Where applicable, units of gauss were",,
+,,converted to tesla (1 gauss = 1x104 T).,,
+,,"Note: The format of the DICOM header data is not consistent across Centers,",,
+,,"sessions, sequences, and possibly even images within a given sequence. To",,
+,,"help identify images with certain technical properties, NACC has created",,
+,,this variable from text strings contained within the DICOM tags. Analysts,,
+,,should confirm these data by examining the DICOM header data.,,
+18,Variable name,MRIMANU,,
+,Short descriptor,Manufacturer,,
+,Data type,Numeric longitudinal,,
+,Data source,MRI DICOM header,,
+,Allowable codes,1 = GE,,
+,,2 = Siemens,,
+,,3 = Phillips,,
+,,5 = Other,,
+,,8 = Not applicable / no MRI available,,
+,,9 = Missing / unknown,,
+,Description / derivation,"This variable is determined from the DICOM tag (0008,0070)",,
+,,“Manufacturer” in the MR image header.,,
+,,"Note: The format of the DICOM header data is not consistent across Centers,",,
+,,"sessions, sequences, and possibly even images within a given sequence. To",,
+,,"help identify images with certain technical properties, NACC has created",,
+,,this variable from text strings contained within the DICOM tags. Analysts,,
+,,should confirm these data by examining the DICOM header data.,,
+Researchers Data Dictionary — Imaging Data,,,,Page 17
+,,,,
+19,Variable name,MRIMODL,,
+,Short descriptor,Manufacturer’s model name,,
+,Data type,Numeric longitudinal,,
+,Data source,MRI DICOM header,,
+,Allowable codes,1 = DISCOVERY MR 750,,
+,,2 = GENESIS SIGNA,,
+,,3 = SIGNA HDxt,,
+,,4 = Trio Tim,,
+,,5 = Eclipse 1.5T,,
+,,6 = Allegra,,
+,,7 = SIGNA EXCITE,,
+,,8 = SIGNA,,
+,,9 = GEMINI,,
+,,10 = Ingenuity,,
+,,11 = Sonata,,
+,,12 = Skyra,,
+,,13 = Signa HDx,,
+,,14 = Achieva,,
+,,15 = Prisma,,
+,,16 = Verio,,
+,,88 = Not applicable / no MRI available,,
+,,99 = Missing / unknown,,
+,Description / derivation,"This variable is determined from the DICOM tag (0008,1090)",,
+,,“Manufacturer’s model name” in the MR image header.,,
+,,"Note: The format of the DICOM header data is not consistent across Centers,",,
+,,"sessions, sequences, and possibly even images within a given sequence. To",,
+,,"help identify images with certain technical properties, NACC has created",,
+,,this variable from text strings contained within the DICOM tags. Analysts,,
+,,should confirm these data by examining the DICOM header data.,,
+Researchers Data Dictionary — Imaging Data,,Page 18,,
+,,,,
+Section 3: MRI calculated summary data,,,,
+"Calculated summary data for NACC MRIs are provided by the IDeA Lab at University of California, Davis. All original",,,,
+"total and lobar volumes are calculated per the ADNI four-tissue segmentation protocol, and hippocampal volume is",,,,
+calculated per the EADC-ADNI harmonized protocol. Documents describing calculation methods and protocols are,,,,
+provided to the investigator at the time of the data request.,,,,
+Section 3a. Gross volume definitions,,,,
+20,Variable name,NACCMVOL,,
+,Short descriptor,Calculated summary data available (y / n),,
+,Data type,Numeric longitudinal,,
+,Data source,NACC derived,,
+,Missing codes,"0 = No, calculated summary data available for this MRI
+1 = Yes, calculated summary data is available for this MRI
+8 = Not applicable / no MRI available",,
+,Description / derivation,Indicates MRIs with corresponding calculated summary data available.,,
+21,Variable name,NACCICV,,
+,Short descriptor,Total intracranial volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,NACC derived,,
+,Variable length,XXXX.XXX,,
+,Missing codes,"8888.888 = Not applicable / no MRI available / calculations not performed
+9999.999 = Missing / could not calculate",,
+,Description / derivation,Records the total intracranial volume for a given MRI by summing,,
+,,"gray matter, white matter, CSF, and white matter hyperintensities",,
+,,(NACCICV=GRAYVOLl + WHITEVOL + CSFVOLl + WMHVOL). NACCICV also,,
+,,"represents the total image segmentation volume for a given MRI, per the",,
+,,ADNI four-tissue segmentation protocol.,,
+22,Variable name,NACCWMVL,,
+,Short descriptor,Total white matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,NACC derived,,
+,Variable length,XXXX.XXX,,
+,Missing codes,"8888.888 = Not applicable / no MRI available / calculations not performed
+9999.999 = Missing / could not calculate",,
+,Description / derivation,"Total white matter volume is calculated by summing white matter volume
+and white matter hyperintensity volume (NACCWMVL = WHITEVOL + WM-
+HVOL).",,
+Researchers Data Dictionary — Imaging Data,,Page 19,,
+,,,,
+23,Variable name,NACCBRNV,,
+,Short descriptor,Total brain volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,NACC derived,,
+,Variable length,XXXX.XXX,,
+,Missing codes,"8888.888 = Not applicable / no MRI available / calculations not performed
+9999.999 = Missing / could not calculate",,
+,Description / derivation,"Records the total brain volume for a given MRI by summing the gray and
+white matter (NACCBRNV=GRAYVOL+ WHITEVOL).",,
+24,Variable name,CSFVOL,,
+,Short descriptor,Total brain cerebrospinal fluid volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XXXX.XXXX,,
+,Missing codes,"8888.8888 = Not applicable / no MRI available / calculations not per-
+formed
+9999.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the volume of intracranial cerebrospinal fluid (CSF) for a given
+MRI.",,
+25,Variable name,GRAYVOL,,
+,Short descriptor,Total brain gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XXXX.XXXX,,
+,Missing codes,"8888.8888 = Not applicable / no MRI available / calculations not per-
+formed
+9999.9999 = Missing / could not calculate",,
+,Description / derivation,Records the total volume of gray matter for a given MRI.,,
+26,Variable name,WHITEVOL,,
+,Short descriptor,Total brain white matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XXXX.XXXX,,
+,Missing codes,"8888.8888 = Not applicable / no MRI available / calculations not per-
+formed
+9999.9999 = Missing / could not calculate",,
+,Description / derivation,Records the total volume of white matter for a given MRI.,,
+27,Variable name,WMHVOL,,
+Researchers Data Dictionary — Imaging Data,,Page 20,,
+,,,,
+,Short descriptor,Total brain white matter hyperintensity volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XXX.XXXX,,
+,Missing codes,"888.8888 = Not applicable / no MRI available / calculations not performed
+999.9999 = Missing / could not calculate",,
+,Description / derivation,Records the volume of white matter hyperintensities for a given MRI.,,
+28,Variable name,CEREALL,,
+,Short descriptor,Total cerebrum cranial volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XXXX.XXXX,,
+,Missing codes,"8888.8888 = Not applicable / no MRI available / calculations not per-
+formed
+9999.9999 = Missing / could not calculate",,
+,Description / derivation,Records the total cerebrum cranial volume for a given MRI.,,
+29,Variable name,CERETISS,,
+,Short descriptor,Total cerebrum brain volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XXXX.XXXX,,
+,Missing codes,"8888.8888 = Not applicable / no MRI available / calculations not per-
+formed
+9999.9999 = Missing / could not calculate",,
+,Description / derivation,Records the total cerebrum brain volume for a given MRI.,,
+30,"Variable name
+Short descriptor","CERECSF
+Total cerebrum cerebrospinal fluid volume (cc)",,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XXXX.XXXX,,
+,Missing codes,"8888.8888 = Not applicable / no MRI available / calculations not per-
+formed
+9999.9999 = Missing / could not calculate",,
+,Description / derivation,Records the total cerebrum cerebrospinal fluid volume for a given MRI.,,
+31,Variable name,CEREGR,,
+,Short descriptor,Total cerebrum gray matter volume (cc),,
+Researchers Data Dictionary — Imaging Data,,Page 21,,
+,,,,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XXXX.XXXX,,
+,Missing codes,"8888.8888 = Not applicable / no MRI available / calculations not per-
+formed
+9999.9999 = Missing / could not calculate",,
+,Description / derivation,Records the total cerebrum gray matter volume for a given MRI.,,
+32,Variable name,CEREWH,,
+,Short descriptor,Total cerebrum white matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XXXX.XXXX,,
+,Missing codes,"8888.8888 = Not applicable / no MRI available / calculations not per-
+formed
+9999.9999 = Missing / could not calculate",,
+,Description / derivation,Records the total cerebrum white matter volume for a given MRI.,,
+33,Variable name,LHIPPO,,
+,Short descriptor,Segmented left hippocampus volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the segmented left hippocampus volume for a given MRI.,,
+34,Variable name,RHIPPO,,
+,Short descriptor,Segmented right hippocampus volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the segmented right hippocampus volume for a given MRI.,,
+35,Variable name,HIPPOVOL,,
+,Short descriptor,Segmented total hippocampi volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the segmented total hippocampi volume for a given MRI.,,
+36,Variable name,LLATVENT,,
+,Short descriptor,Segmented left lateral ventricle volume (cc),,
+,Data type,Numeric longitudinal,,
+Researchers Data Dictionary — Imaging Data,,Page 22,,
+,,,,
+,Data source,IDeA Lab,,
+,Variable length,XXX.XXXX,,
+,Missing codes,"888.8888 = Not applicable / no MRI available / calculations not performed
+999.9999 = Missing / could not calculate",,
+,Description / derivation,Records the segmented left lateral ventricle volume for a given MRI.,,
+37,Variable name,RLATVENT,,
+,Short descriptor,Segmented right lateral ventricle volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XXX.XXXX,,
+,Missing codes,"888.8888 = Not applicable / no MRI available / calculations not performed
+999.9999 = Missing / could not calculate",,
+,Description / derivation,Records the segmented right lateral ventricle volume for a given MRI.,,
+38,Variable name,LATVENT,,
+,Short descriptor,Segmented total lateral ventricle volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XXX.XXXX,,
+,Missing codes,"888.8888 = Not applicable / no MRI available / calculations not performed
+999.9999 = Missing / could not calculate",,
+,Description / derivation,Records the segmented total lateral ventricle volume for a given MRI.,,
+39,Variable name,THIRVENT,,
+,Short descriptor,Segmented total third ventricle volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the segmented total third ventricle volume for a given MRI.,,
+40,Variable name,LFRCORT,,
+,Short descriptor,Segmented left frontal lobe cortical gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XXX.XXXX,,
+,Missing codes,"888.8888 = Not applicable / no MRI available / calculations not performed
+999.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the segmented left frontal lobe cortical gray matter volume for a
+given MRI.",,
+41,Variable name,RFRCORT,,
+,Short descriptor,Segmented right frontal lobe cortical gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+Researchers Data Dictionary — Imaging Data,,Page 23,,
+,,,,
+,Data source,IDeA Lab,,
+,Variable length,XXX.XXXX,,
+,Missing codes,"888.8888 = Not applicable / no MRI available / calculations not performed
+999.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the segmented right frontal lobe cortical gray matter volume for a
+given MRI.",,
+42,Variable name,FRCORT,,
+,Short descriptor,Segmented total frontal lobe cortical gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XXX.XXXX,,
+,Missing codes,"888.8888 = Not applicable / no MRI available / calculations not performed
+999.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the segmented total frontal lobe cortical gray matter volume for a
+given MRI.",,
+43,Variable name,LOCCORT,,
+,Short descriptor,Segmented left occipital lobe cortical gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XXX.XXXX,,
+,Missing codes,"888.8888 = Not applicable / no MRI available / calculations not performed
+999.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the segmented left occipital lobe cortical gray matter volume for a
+given MRI.",,
+44,Variable name,ROCCORT,,
+,Short descriptor,Segmented right occipital lobe cortical gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XXX.XXXX,,
+,Missing codes,"888.8888 = Not applicable / no MRI available / calculations not performed
+999.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the segmented right occipital lobe cortical gray matter volume for a
+given MRI.",,
+45,Variable name,OCCCORT,,
+,Short descriptor,Segmented total occipital lobe cortical gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+Researchers Data Dictionary — Imaging Data,,Page 24,,
+,,,,
+,Data source,IDeA Lab,,
+,Variable length,XXX.XXXX,,
+,Missing codes,"888.8888 = Not applicable / no MRI available / calculations not performed
+999.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the segmented total occipital lobe cortical gray matter volume for a
+given MRI.",,
+46,Variable name,LPARCORT,,
+,Short descriptor,Segmented left parietal lobe cortical gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XXX.XXXX,,
+,Missing codes,"888.8888 = Not applicable / no MRI available / calculations not performed
+999.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the segmented left parietal lobe cortical gray matter volume for a
+given MRI.",,
+47,Variable name,RPARCORT,,
+,Short descriptor,Segmented right parietal lobe cortical gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XXX.XXXX,,
+,Missing codes,"888.8888 = Not applicable / no MRI available / calculations not performed
+999.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the segmented right parietal lobe cortical gray matter volume for a
+given MRI.",,
+48,Variable name,PARCORT,,
+,Short descriptor,Segmented total parietal lobe cortical gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XXX.XXXX,,
+,Missing codes,"888.8888 = Not applicable / no MRI available / calculations not performed
+999.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the segmented total parietal lobe cortical gray matter volume for a
+given MRI.",,
+49,Variable name,LTEMPCOR,,
+,Short descriptor,Segmented left temporal lobe cortical gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+Researchers Data Dictionary — Imaging Data,,Page 25,,
+,,,,
+,Data source,IDeA Lab,,
+,Variable length,XXX.XXXX,,
+,Missing codes,"888.8888 = Not applicable / no MRI available / calculations not performed
+999.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the segmented left temporal lobe cortical gray matter volume for a
+given MRI.",,
+50,Variable name,RTEMPCOR,,
+,Short descriptor,Segmented right temporal lobe cortical gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XXX.XXXX,,
+,Missing codes,"888.8888 = Not applicable / no MRI available / calculations not performed
+999.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the segmented right temporal lobe cortical gray matter volume for
+a given MRI.",,
+51,Variable name,TEMPCOR,,
+,Short descriptor,Segmented total temporal lobe cortical gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XXX.XXXX,,
+,Missing codes,"888.8888 = Not applicable / no MRI available / calculations not performed
+999.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the segmented total temporal lobe cortical gray matter volume for a
+given MRI.",,
+Researchers Data Dictionary — Imaging Data,,Page 26,,
+,,,,
+Section 3b: Regional gray matter volumes,,,,
+52,Variable name,LCAC,,
+,Short descriptor,Left caudal anterior cingulate gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left caudal anterior cingulate gray matter volume for a given MRI.,,
+53,Variable name,RCAC,,
+,Short descriptor,Right caudal anterior cingulate gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the right caudal anterior cingulate gray matter volume for a given
+MRI.",,
+54,Variable name,LCMF,,
+,Short descriptor,Left caudal middle frontal gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left caudal middle frontal gray matter volume for a given MRI.,,
+55,Variable name,RCMF,,
+,Short descriptor,Right caudal middle frontal gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right caudal middle frontal gray matter volume for a given MRI.,,
+56,Variable name,LCUN,,
+,Short descriptor,Left cuneus gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left cuneus gray matter volume for a given MRI.,,
+Researchers Data Dictionary — Imaging Data,,,Page 26,
+,,,,
+57,Variable name,RCUN,,
+,Short descriptor,Right cuneus gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right cuneus gray matter volume for a given MRI.,,
+58,Variable name,LENT,,
+,Short descriptor,Left entorhinal gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left entorhinal gray matter volume for a given MRI.,,
+59,Variable name,RENT,,
+,Short descriptor,Right entorhinal gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right entorhinal gray matter volume for a given MRI.,,
+60,Variable name,LFUS,,
+,Short descriptor,Left fusiform gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left fusiform gray matter volume for a given MRI.,,
+61,Variable name,RFUS,,
+,Short descriptor,Right fusiform gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right fusiform gray matter volume for a given MRI.,,
+Researchers Data Dictionary — Imaging Data,,,Page 27,
+,,,,
+62,Variable name,LINFPAR,,
+,Short descriptor,Left inferior parietal gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left inferior parietal gray matter volume for a given MRI.,,
+63,Variable name,RINFPAR,,
+,Short descriptor,Right inferior parietal gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,88.8888 = Not applicable / no MRI available / calculations not performed,,
+,,99.9999 = Missing / could not calculate,,
+,Description / derivation,Records the right inferior parietal gray matter volume for a given MRI.,,
+64,Variable name,LINFTEMP,,
+,Short descriptor,Left inferior temporal gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,88.8888 = Not applicable / no MRI available / calculations not performed,,
+,,99.9999 = Missing / could not calculate,,
+,Description / derivation,Records the left inferior temporal gray matter volume for a given MRI.,,
+65,Variable name,RINFTEMP,,
+,Short descriptor,Right inferior temporal gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right inferior temporal gray matter volume for a given MRI.,,
+66,Variable name,LINSULA,,
+,Short descriptor,Left insula gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable lLength,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left insula gray matter volume for a given MRI.,,
+Researchers Data Dictionary — Imaging Data,,,Page 28,
+,,,,
+67,Variable name,RINSULA,,
+,Short descriptor,Right insula gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right insula gray matter volume for a given MRI.,,
+68,Variable name,LISTHC,,
+,Short descriptor,Left isthmus cingulate gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left isthmus cingulate gray matter volume for a given MRI.,,
+69,Variable name,RISTHC,,
+,Short descriptor,Right isthmus cingulate gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right isthmus cingulate gray matter volume for a given MRI.,,
+70,Variable name,LLATOCC,,
+,Short descriptor,Left lateral occipital gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left lateral occipital gray matter volume for a given MRI.,,
+71,Variable name,RLATOCC,,
+,Short descriptor,Right lateral occipital gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right lateral occipital gray matter volume for a given MRI.,,
+Researchers Data Dictionary — Imaging Data,,,Page 29,
+,,,,
+72,Variable name,LLATORBF,,
+,Short descriptor,Left lateral orbitofrontal gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left lateral orbitofrontal gray matter volume for a given MRI.,,
+73,Variable name,RLATORBF,,
+,Short descriptor,Right lateral orbitofrontal gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right lateral orbitofrontal gray matter volume for a given MRI.,,
+74,Variable name,LLING,,
+,Short descriptor,Left lingual gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left lingual gray matter volume for a given MRI.,,
+75,Variable name,RLING,,
+,Short descriptor,Right lingual gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,88.8888 = Not applicable / no MRI available / calculations not performed,,
+,,99.9999 = Missing / could not calculate,,
+,Description / derivation,Records the right lingual gray matter volume for a given MRI.,,
+76,Variable name,LMEDORBF,,
+,Short descriptor,Left Medial Orbitofrontal Gray Matter Volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left medial orbitofrontal gray matter volume for a given MRI.,,
+Researchers Data Dictionary — Imaging Data Page 30,,,,
+,,,,
+77,Variable name,RMEDORBF,,
+,Short descriptor,Right medial orbitofrontal gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right medial orbitofrontal gray matter volume for a given MRI.,,
+78,Variable name,LMIDTEMP,,
+,Short descriptor,Left middle temporal gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left middle temporal gray matter volume for a given MRI.,,
+79,Variable name,RMIDTEMP,,
+,Short descriptor,Right middle temporal gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right middle temporal gray matter volume for a given MRI.,,
+80,Variable name,LPARCEN,,
+,Short descriptor,Left paracentral gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left paracentral gray matter volume for a given MRI.,,
+81,Variable name,RPARCEN,,
+,Short descriptor,Right paracentral gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right paracentral gray matter volume for a given MRI.,,
+Researchers Data Dictionary — Imaging Data,,,Page 31,
+,,,,
+82,Variable name,LPARHIP,,
+,Short descriptor,Left parahippocampal gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left parahippocampal gray matter volume for a given MRI.,,
+83,Variable name,RPARHIP,,
+,Short descriptor,Right parahippocampal gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right parahippocampal gray matter volume for a given MRI.,,
+84,Variable name,LPARSOP,,
+,Short descriptor,Left pars opercularis gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left pars opercularis gray matter volume for a given MRI.,,
+85,Variable name,RPARSOP,,
+,Short descriptor,Right pars opercularis gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right pars opercularis gray matter volume for a given MRI.,,
+86,Variable name,LPARORB,,
+,Short descriptor,Left pars orbitalis gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,X.XXXX,,
+,Missing codes,"8.8888 = Not applicable / no MRI available / calculations not performed
+9.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left pars orbitalis gray matter volume for a given MRI.,,
+Researchers Data Dictionary — Imaging Data,,,Page 32,
+,,,,
+87,Variable name,RPARORB,,
+,Short descriptor,Right pars orbitalis gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,X.XXXX,,
+,Missing codes,"8.8888 = Not applicable / no MRI available / calculations not performed
+9.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right pars orbitalis gray matter volume for a given MRI.,,
+88,Variable name,LPARTRI,,
+,Short descriptor,Left pars triangularis gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left pars triangularis gray matter volume for a given MRI.,,
+89,Variable name,RPARTRI,,
+,Short descriptor,Right pars triangularis gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right pars triangularis gray matter volume for a given MRI.,,
+90,Variable name,LPERCAL,,
+,Short descriptor,Left pericalcarine gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left pericalcarine gray matter volume for a given MRI.,,
+91,Variable name,RPERCAL,,
+,Short descriptor,Right pericalcarine gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right pericalcarine gray matter volume for a given MRI.,,
+Researchers Data Dictionary — Imaging Data,,,Page 33,
+,,,,
+92,Variable name,LPOSCEN,,
+,Short descriptor,Left postcentral gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left postcentral gray matter volume for a given MRI.,,
+93,Variable name,RPOSCEN,,
+,Short descriptor,Right postcentral gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right postcentral gray matter volume for a given MRI.,,
+94,Variable name,LPOSCIN,,
+,Short descriptor,Left posterior cingulate gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left posterior cingulate gray matter volume for a given MRI.,,
+95,Variable name,RPOSCIN,,
+,Short descriptor,Right posterior cingulate gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right posterior cingulate gray matter volume for a given MRI.,,
+96,Variable name,LPRECEN,,
+,Short descriptor,Left precentral gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left precentral gray matter volume for a given MRI.,,
+Researchers Data Dictionary — Imaging Data,,,Page 34,
+,,,,
+97,Variable name,RPRECEN,,
+,Short descriptor,Right precentral gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right precentral gray matter volume for a given MRI.,,
+98,Variable name,LPRECUN,,
+,Short descriptor,Left precuneus gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left precuneus gray matter volume for a given MRI.,,
+99,Variable name,RPRECUN,,
+,Short descriptor,Right precuneus gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right precuneus gray matter volume for a given MRI.,,
+100,Variable name,LROSANC,,
+,Short descriptor,Left rostral anterior cingulate gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left rostral anterior cingulate gray matter volume for a given MRI.,,
+101,Variable name,RROSANC,,
+,Short descriptor,Right rostral anterior cingulate gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right rostral anterior cingulate gray matter volume for a given,,
+,,MRI.,,
+Researchers Data Dictionary — Imaging Data Page 35,,,,
+,,,,
+102,Variable name,LROSMF,,
+,Short descriptor,Left rostral middle frontal gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left rostral middle frontal gray matter volume for a given MRI.,,
+103,Variable name,RROSMF,,
+,Short descriptor,Right rostral middle frontal gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right rostral middle frontal gray matter volume for a given MRI.,,
+104,Variable name,LSUPFR,,
+,Short descriptor,Left superior frontal gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left superior frontal gray matter volume for a given MRI.,,
+105,Variable name,RSUPFR,,
+,Short descriptor,Right superior frontal gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right superior frontal gray matter volume for a given MRI.,,
+106,Variable name,LSUPPAR,,
+,Short descriptor,Left superior parietal gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left superior parietal gray matter volume for a given MRI.,,
+Researchers Data Dictionary — Imaging Data,,,Page 36,
+,,,,
+107,Variable name,RSUPPAR,,
+,Short descriptor,Right superior parietal gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right superior parietal gray matter volume for a given MRI.,,
+108,Variable name,LSUPTEM,,
+,Short descriptor,Left superior temporal gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left superior temporal gray matter volume for a given MRI.,,
+109,Variable name,RSUPTEM,,
+,Short descriptor,Right superior temporal gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right superior temporal gray matter volume for a given MRI.,,
+110,Variable name,LSUPMAR,,
+,Short descriptor,Left supramarginal gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left supramarginal gray matter volume for a given MRI.,,
+111,Variable name,RSUPMAR,,
+,Short descriptor,Right supramarginal gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right supramarginal gray matter volume for a given MRI.,,
+Researchers Data Dictionary — Imaging Data,,,Page 37,
+,,,,
+112,Variable name,LTRTEM,,
+,Short descriptor,Left transverse temporal gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left transverse temporal gray matter volume for a given MRI.,,
+113,Variable name,RTRTEM,,
+,Short descriptor,Right transverse temporal gray matter volume (cc),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right transverse temporal gray matter volume for a given MRI.,,
+Researchers Data Dictionary — Imaging Data Page 38,,,,
+,,,,
+Section 3c. Regional cortical thickness definitions,,,,
+114,Variable name,LCACM,,
+,Short descriptor,Left caudal anterior cingulate mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,X.XXXX,,
+,Missing Codes,"8.8888 = Not applicable / no MRI available / calculations not performed _
+9.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the left caudal anterior cingulate mean cortical thickness for a
+given MRI.",,
+115,Variable name,RCACM,,
+,Short descriptor,Right caudal anterior cingulate mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,X.XXXX,,
+,Missing Codes,"8.8888 = Not applicable / no MRI available / calculations not performed _
+9.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the right caudal anterior cingulate mean cortical thickness for a
+given MRI.",,
+116,Variable name,LCMFM,,
+,Short descriptor,Left caudal middle frontal mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the left caudal middle frontal mean cortical thickness for a given
+MRI.",,
+117,Variable name,RCMFM,,
+,Short descriptor,Right caudal middle frontal mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the right caudal middle frontal mean cortical thickness for a
+given MRI.",,
+Researchers Data Dictionary — Imaging Data,,Page 39,,
+,,,,
+118,Variable name,LCUNM,,
+,Short descriptor,Left cuneus mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,X.XXXX,,
+,Missing Codes,"8.8888 = Not applicable / no MRI available / calculations not performed _
+9.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left cuneus mean cortical thickness for a given MRI.,,
+119,Variable name,RCUNM,,
+,Short descriptor,Right cuneus mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,X.XXXX,,
+,Missing Codes,"8.8888 = Not applicable / no MRI available / calculations not performed _
+9.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right cuneus mean cortical thickness for a given MRI.,,
+120,Variable name,LENTM,,
+,Short descriptor,Left entorhinal mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left entorhinal mean cortical thickness for a given MRI.,,
+121,Variable name,RENTM,,
+,Short descriptor,Right entorhinal mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right entorhinal mean cortical thickness for a given MRI.,,
+122,Variable name,LFUSM,,
+,Short descriptor,Left fusiform mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left fusiform mean cortical thickness for a given MRI.,,
+Researchers Data Dictionary — Imaging Data,,Page 40,,
+,,,,
+123,Variable name,RFUSM,,
+,Short descriptor,Right fusiform mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right fusiform mean cortical thickness for a given MRI.,,
+124,Variable name,LINFPARM,,
+,Short descriptor,Left inferior parietal mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left inferior parietal mean cortical thickness for a given MRI.,,
+125,Variable name,RINFPARM,,
+,Short descriptor,Right inferior parietal mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right inferior parietal mean cortical thickness for a given MRI.,,
+126,Variable name,LINFTEMM,,
+,Short descriptor,Left inferior temporal mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left inferior temporal mean cortical thickness for a given MRI.,,
+127,Variable name,RINFTEMM,,
+,Short descriptor,Right inferior temporal mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the right inferior temporal mean cortical thickness for a given
+MRI.",,
+Researchers Data Dictionary — Imaging Data,,Page 41,,
+,,,,
+128,Variable name,LINSULAM,,
+,Short descriptor,Left insula mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left insula mean cortical thickness for a given MRI.,,
+129,Variable name,RINSULAM,,
+,Short descriptor,Right insula mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right insula mean cortical thickness for a given MRI.,,
+130,Variable name,LISTHCM,,
+,Short descriptor,Left isthmus cingulate mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,X.XXXX,,
+,Missing Codes,"8.8888 = Not applicable / no MRI available / calculations not performed _
+9.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the left isthmus cingulate mean cortical thickness for a given
+MRI.",,
+131,Variable name,RISTHCM,,
+,Short descriptor,Right isthmus cingulate mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,X.XXXX,,
+,Missing Codes,"8.8888 = Not applicable / no MRI available / calculations not performed _
+9.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the right isthmus cingulate mean cortical thickness for a given
+MRI.",,
+132,Variable name,LLATOCCM,,
+,Short descriptor,Left lateral occipital mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left lateral occipital mean cortical thickness for a given MRI.,,
+Researchers Data Dictionary — Imaging Data,,Page 42,,
+,,,,
+133,Variable name,RLATOCCM,,
+,Short descriptor,Right lateral occipital mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right lateral occipital mean cortical thickness for a given MRI.,,
+134,Variable name,LLATORBM,,
+,Short descriptor,Left lateral orbitofrontal mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the left lateral orbitofrontal mean cortical thickness for a given
+MRI.",,
+135,Variable name,RLATORBM,,
+,Short descriptor,Right lateral orbitofrontal mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the right lateral orbitofrontal mean cortical thickness for a given
+MRI.",,
+136,Variable name,LLINGM,,
+,Short descriptor,Left lingual mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left lingual mean cortical thickness for a given MRI.,,
+137,Variable name,RLINGM,,
+,Short descriptor,Right lingual mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right lingual mean cortical thickness for a given MRI.,,
+Researchers Data Dictionary — Imaging Data,,Page 43,,
+,,,,
+138,Variable name,LMEDORBM,,
+,Short descriptor,Left medial orbitofrontal mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,X.XXXX,,
+,Missing Codes,"8.8888 = Not applicable / no MRI available / calculations not performed _
+9.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the left medial orbitofrontal mean cortical thickness for a given
+MRI.",,
+139,Variable name,RMEDORBM,,
+,Short descriptor,Right medial orbitofrontal mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,X.XXXX,,
+,Missing Codes,"8.8888 = Not applicable / no MRI available / calculations not performed _
+9.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the right medial orbitofrontal mean cortical thickness for a given
+MRI.",,
+140,Variable name,LMIDTEMM,,
+,Short descriptor,Left middle temporal mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left middle temporal mean cortical thickness for a given MRI.,,
+141,Variable name,RMIDTEMM,,
+,Short descriptor,Right middle temporal mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the right middle temporal mean cortical thickness for a given
+MRI.",,
+142,Variable name,LPARCENM,,
+,Short descriptor,Left paracentral mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,X.XXXX,,
+,Missing Codes,"8.8888 = Not applicable / no MRI available / calculations not performed _
+9.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left paracentral mean cortical thickness for a given MRI.,,
+Researchers Data Dictionary — Imaging Data,,Page 44,,
+,,,,
+143,Variable name,RPARCENM,,
+,Short descriptor,Right paracentral mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,X.XXXX,,
+,Missing Codes,"8.8888 = Not applicable / no MRI available / calculations not performed _
+9.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right paracentral mean cortical thickness for a given MRI.,,
+144,Variable name,LPARHIPM,,
+,Short descriptor,Left parahippocampal mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,X.XXXX,,
+,Missing Codes,"8.8888 = Not applicable / no MRI available / calculations not performed _
+9.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the left parahippocampal mean cortical thickness for a given
+MRI.",,
+145,Variable name,RPARHIPM,,
+,Short descriptor,Right parahippocampal mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,X.XXXX,,
+,Missing Codes,"8.8888 = Not applicable / no MRI available / calculations not performed _
+9.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the right parahippocampal mean cortical thickness for a given
+MRI.",,
+146,Variable name,LPARSOPM,,
+,Short descriptor,Left pars opercularis mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,X.XXXX,,
+,Missing Codes,"8.8888 = Not applicable / no MRI available / calculations not performed _
+9.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left pars opercularis mean cortical thickness for a given MRI.,,
+147,Variable name,RPARSOPM,,
+,Short descriptor,Right pars opercularis mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,X.XXXX,,
+,Missing Codes,"8.8888 = Not applicable / no MRI available / calculations not performed _
+9.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the right pars opercularis mean cortical thickness for a given
+MRI.",,
+Researchers Data Dictionary — Imaging Data,,Page 45,,
+,,,,
+148,Variable name,LPARORBM,,
+,Short descriptor,Left pars orbitalis mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left pars orbitalis mean cortical thickness for a given MRI.,,
+149,Variable name,RPARORBM,,
+,Short descriptor,Right pars orbitalis mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right pars orbitalis mean cortical thickness for a given MRI.,,
+150,Variable name,LPARTRIM,,
+,Short descriptor,Left pars triangularis mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left pars triangularis mean cortical thickness for a given MRI.,,
+151,Variable name,RPARTRIM,,
+,Short descriptor,Right pars triangularis mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the right pars triangularis mean cortical thickness for a given
+MRI.",,
+152,Variable name,LPERCALM,,
+,Short descriptor,Left pericalcarine mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left pericalcarine mean cortical thickness for a given MRI.,,
+Researchers Data Dictionary — Imaging Data,,Page 46,,
+,,,,
+153,Variable name,RPERCALM,,
+,Short descriptor,Right pericalcarine mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right pericalcarine mean cortical thickness for a given MRI.,,
+154,Variable name,LPOSCENM,,
+,Short descriptor,Left postcentral mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left postcentral mean cortical thickness for a given MRI.,,
+155,Variable name,RPOSCENM,,
+,Short descriptor,Right postcentral mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right postcentral mean cortical thickness for a given MRI.,,
+156,Variable name,LPOSCINM,,
+,Short descriptor,Left posterior cingulate mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,X.XXXX,,
+,Missing Codes,"8.8888 = Not applicable / no MRI available / calculations not performed _
+9.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the left posterior cingulate mean cortical thickness for a given
+MRI.",,
+157,Variable name,RPOSCINM,,
+,Short descriptor,Right posterior cingulate mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,X.XXXX,,
+,Missing Codes,"8.8888 = Not applicable / no MRI available / calculations not performed _
+9.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the right posterior cingulate mean cortical thickness for a given
+MRI.",,
+Researchers Data Dictionary — Imaging Data,,Page 47,,
+,,,,
+158,Variable name,LPRECENM,,
+,Short descriptor,Left precentral mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left precentral mean cortical for a given MRI.,,
+159,Variable name,RPRECENM,,
+,Short descriptor,Right precentral mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right precentral mean cortical thickness for a given MRI.,,
+160,Variable name,LPRECUNM,,
+,Short descriptor,Left precuneus mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,X.XXXX,,
+,Missing Codes,"8.8888 = Not applicable / no MRI available / calculations not performed _
+9.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left precuneus mean cortical thickness for a given MRI.,,
+161,Variable name,RPRECUNM,,
+,Short descriptor,Right precuneus mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,X.XXXX,,
+,Missing Codes,"8.8888 = Not applicable / no MRI available / calculations not performed _
+9.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right precuneus mean cortical thickness for a given MRI.,,
+162,Variable name,LROSANCM,,
+,Short descriptor,Left rostral anterior cingulate mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the left rostral anterior cingulate mean cortical thickness for a
+given MRI.",,
+Researchers Data Dictionary — Imaging Data,,Page 48,,
+,,,,
+163,Variable name,RROSANCM,,
+,Short descriptor,Right rostral anterior cingulate mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the right rostral anterior cingulate mean cortical thickness for a
+given MRI.",,
+164,Variable name,LROSMFM,,
+,Short descriptor,Left rostral middle frontal mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the left rostral middle frontal mean cortical thickness for a given
+MRI.",,
+165,Variable name,RROSMFM,,
+,Short descriptor,Right rostral middle frontal mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the right rostral middle frontal mean cortical thickness for a given
+MRI.",,
+166,Variable name,LSUPFRM,,
+,Short descriptor,Left superior frontal mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,X.XXXX,,
+,Missing Codes,"8.8888 = Not applicable / no MRI available / calculations not performed _
+9.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left superior frontal mean cortical thickness for a given MRI.,,
+167,Variable name,RSUPFRM,,
+,Short descriptor,Right superior frontal mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,X.XXXX,,
+,Missing Codes,"8.8888 = Not applicable / no MRI available / calculations not performed _
+9.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right superior frontal mean cortical thickness for a given MRI.,,
+Researchers Data Dictionary — Imaging Data,,Page 49,,
+,,,,
+168,Variable name,LSUPPARM,,
+,Short descriptor,Left superior parietal mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left superior parietal mean cortical thickness for a given MRI.,,
+169,Variable name,RSUPPARM,,
+,Short descriptor,Right superior parietal mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,XX.XXXX,,
+,Missing Codes,"88.8888 = Not applicable / no MRI available / calculations not performed _
+99.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the right superior parietal mean cortical thickness for a given
+MRI.",,
+170,Variable name,LSUPTEMM,,
+,Short descriptor,Left superior temporal mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,X.XXXX,,
+,Missing Codes,"8.8888 = Not applicable / no MRI available / calculations not performed _
+9.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the left superior temporal mean cortical thickness for a given
+MRI.",,
+171,Variable name,RSUPTEMM,,
+,Short descriptor,Right superior temporal mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,X.XXXX,,
+,Missing Codes,"8.8888 = Not applicable / no MRI available / calculations not performed _
+9.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the right superior temporal mean cortical thickness for a given
+MRI.",,
+172,Variable name,LSUPMARM,,
+,Short descriptor,Left supramarginal mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,X.XXXX,,
+,Missing Codes,"8.8888 = Not applicable / no MRI available / calculations not performed _
+9.9999 = Missing / could not calculate",,
+,Description / derivation,Records the left supramarginal mean cortical thickness for a given MRI.,,
+Researchers Data Dictionary — Imaging Data,,Page 50,,
+,,,,
+173,Variable name,RSUPMARM,,
+,Short descriptor,Right supramarginal mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,X.XXXX,,
+,Missing Codes,"8.8888 = Not applicable / no MRI available / calculations not performed _
+9.9999 = Missing / could not calculate",,
+,Description / derivation,Records the right supramarginal mean cortical thickness for a given MRI.,,
+174,Variable name,LTRTEMM,,
+,Short descriptor,Left transverse temporal mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,X.XXXX,,
+,Missing Codes,"8.8888 = Not applicable / no MRI available / calculations not performed _
+9.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the left transverse temporal mean cortical thickness for a given
+MRI.",,
+175,Variable name,RTRTEMM,,
+,Short descriptor,Right transverse temporal mean cortical thickness (mm),,
+,Data type,Numeric longitudinal,,
+,Data source,IDeA Lab,,
+,Variable length,X.XXXX,,
+,Missing Codes,"8.8888 = Not applicable / no MRI available / calculations not performed _
+9.9999 = Missing / could not calculate",,
+,Description / derivation,"Records the right transverse temporal mean cortical thickness
+MRI.",for a given,
+Researchers Data Dictionary — Imaging Data,,,Page 51,
+,,,,
+Section 4: PET scan data,,,,
+176,Variable name,APETMO,,
+,Short descriptor,Month amyloid PET scan performed,,
+,Data type,Numeric longitudinal,,
+,Data source,PET DICOM header,,
+,Allowable codes,"0 – 12
+88 = Not applicable / no amyloid PET scan available",,
+,Description/derivation,"This variable indicates the month during which the amyloid PET scan
+was performed.",,
+177,Variable name,APETDY,,
+,Short descriptor,Day amyloid PET scan performed,,
+,Data type,Numeric longitudinal,,
+,Data source,PET DICOM header,,
+,Allowable codes,"0 – 31
+88 = Not applicable / no amyloid PET scan available",,
+,Description/derivation,"This variable indicates the day of the month during which the amyloid
+PET scan was performed.",,
+178,Variable name,APETYR,,
+,Short descriptor,Year amyloid PET scan performed,,
+,Data type,Numeric longitudinal,,
+,Data source,PET DICOM header,,
+,Allowable codes,"2000 – current year
+8888 = Not applicable / no amyloid PET scan available",,
+,Description/derivation,"This variable indicates the year during which the amyloid PET scan was
+performed.",,
+179,Variable name,NACCAPTA,,
+,Short descriptor,Subject age at time of amyloid PET scan,,
+,Data type,Numeric longitudinal,,
+,Data source,NACC derived,,
+,Allowable codes,"18 – 120
+888 = Not applicable / no amyloid PET scan available",,
+,Description/derivation,"This variable provides the subject’s age at the time of the amyloid PET
+scan. Birth month and birth year are required elements in the UDS;
+however, birth day is not collected. To calculate age at amyloid PET scan,
+birth day is set to 1 for all UDS subjects, and NACCAPTA is computed as
+amyloid PET scan date – birth date.",,
+Researchers Data Dictionary — Imaging Data,,Page 52,,
+,,,,
+180,Variable name,NACCAPTF,,
+,Short descriptor,Amyloid PET scan file locator variable,,
+,Data type,Character longitudinal,,
+,Data source,NACC derived,,
+,Allowable codes,"“apet” followed by 1 – 3 digits and “.zip”
+Blank = No file available / no amyloid PET scan available",,
+,Description/derivation,"This variable provides a unique identifier for the amyloid PET scan zip
+file.",,
+181,Variable name,NACCAPNM,,
+,Short descriptor,Amyloid PET scan in chronological order,,
+,Data type,Numeric longitudinal,,
+,Data source,NACC derived,,
+,Allowable codes,"1 – 20
+88 = Not applicable / no amyloid PET scan available",,
+,Description/derivation,"This variable assigns a number to each amyloid PET scan per subject
+ID, in chronological order, beginning with the first amyloid PET scan
+available at NACC.",,
+182,Variable name,NACCAPTD,,
+,Short descriptor,Days between amyloid PET scan and closest UDS visit,,
+,Data type,Numeric longitudinal,,
+,Data source,NACC derived,,
+,Allowable codes,"-3650 – 3650
+8888 = Not applicable / no amyloid PET scan available",,
+,Description/derivation,"This variable is the amyloid PET scan date minus the closest UDS visit
+date for every amyloid PET scan. For amyloid PET scans before the
+closest visit date, NACCAPTD < 0, and for amyloid PET scans after the
+closest visit date, NACCAPTD > 0.",,
+183,Variable name,APETMANU,,
+,Short descriptor,Manufacturer,,
+,Data type,Numeric longitudinal,,
+,Data source,PET DICOM header,,
+,Allowable codes,1 = GE,,
+,,2 = Siemens,,
+,,3 = Phillips,,
+,,5 = Other,,
+,,8 = Not applicable / no amyloid PET scan available,,
+,,9 = Missing / unknown,,
+,Description/derivation,"This variable is determined from the DICOM tag (0008,0070)
+“Manufacturer” in the amyloid PET scan header.",,
+,Note,"The format of the DICOM header is not consistent across Centers,
+sessions, sequences, and possibly even images within a given sequence.
+To help identify images with certain technical properties, NACC has
+created this variable from text strings contained within the DICOM tags.
+Analysts should confirm these data by examining the DICOM header data.",,
+Researchers Data Dictionary — Imaging Data,,Page 53,,
+,,,,
+184,Variable name,APETMODL,,
+,Short descriptor,Manufacturer’s model name,,
+,Data type,Numeric longitudinal,,
+,Data source,PET DICOM header,,
+,Allowable codes,"1 = DiscoveryST
+2 = Biograph16
+88 = Not applicable / no amyloid PET scan available
+99 = Missing / unknown",,
+,Description/derivation,"This variable is determined from the DICOM tag (0008,1090)
+“Manufacturer’s model name” in the amyloid PET scan header.",,
+,Note,"The format of the DICOM header is not consistent across Centers,",,
+,,"sessions, sequences, and possibly even images within a given sequence.",,
+,,"To help identify images with certain technical properties, NACC has",,
+,,created this variable from text strings contained within the DICOM tags.,,
+,,Analysts should confirm these data by examining the DICOM header data.,,
+185,Variable name,NACCNAPA,,
+,Short descriptor,Total number of amyloid PET scans available,,
+,Data type,Numeric cross-sectional,,
+,Data source,NACC derived,,
+,Allowable codes,"1 – 20
+88 = Not applicable / no amyloid PET scan available",,
+,Description/derivation,"This variable provides the number of amyloid PET scans a UDS subject
+has in the NACC database, regardless of time between scans. Note that
+while this variable is listed for all visits, it does not change across visits;
+it is cross-sectional.",,
+186,Variable name,NACCAPSA,,
+,Short descriptor,At least one amyloid PET scan available (y/n),,
+,Data type,Numeric cross-sectional,,
+,Data source,NACC derived,,
+,Allowable codes,"0 = No; does not have any amyloid PET scans at NACC
+1 = Yes; has at least one amyloid PET scan available at NACC",,
+,Description/derivation,"This variable flags UDS subjects who have at least one amyloid PET scan
+at NACC.",,
+187,Variable name,LIGANDN,,
+,Short descriptor,Amyloid tracer used for PET scan,,
+,Data type,Numeric longitudinal,,
+,Data source,ADC,,
+,Allowable codes,1,=,PIB
+,,2,=,Florbetapir
+,,3,=,Florbetaben
+,,4,=,Flutemetemol
+,,8,=,Not applicable / no amyloid PET scan available
+,,9,=,Missing / unknown
+,Description/derivation,"This variable indicates the amyloid tracer used for the PET scan as
+reported by the ADC.",,
+Researchers Data Dictionary — Imaging Data,,,,Page 54
+,,,,

@@ -1,0 +1,506 @@
+Category,VariableName,VariableType,ShortDescriptor,DataType,AllowableCodes,MissingRates
+DEMO,NACCID,NACC derived variable,Subject ID number,Numeric longitudinal, Prefix NACC followed by 0  - 10 numbers,0.0
+DEMO,NACCADC,NACC derived variable,ADC at which subject was seen,Numeric cross-sectional, 100 -9999,0.0
+DEMO,VISITMO,Original UDS question,Form date - month,Numeric longitudinal, 1 - 12,
+DEMO,VISITDAY,Original UDS question,Form date - day,Numeric longitudinal, 1 -  31,
+DEMO,VISITYR,Original UDS question,Form date - year,Numeric longitudinal, 2005 to the present year,
+DEMO,NACCVNUM,NACC derived variable,UDS visit number (order),Numeric longitudinal, 1 - 20,0.0
+DEMO,SEX,Original UDS question,Subject's sex,Numeric cross-sectional," 1 = Male
+2 = Female",0.0
+DEMO,EDUC,Original UDS question,Years of education,Numeric cross-sectional," 0  - 36
+99 = Unknown",0.007982261640798226
+DEMO,NACCAGE,NACC derived variable,Subject's age at visit,Numeric longitudinal, 18  - 120,0.0
+DEMO,NACCUDSD,NACC derived variable,Cognitive status at UDS visit,Numeric longitudinal," 1 = Normal cognition 
+2 = Impaired-not-MCI 
+3 = MCI 
+4 = Dementia",0.0
+DEMO,NACCALZP,NACC Derived variable,"Primary, contributing, or non-contributing cause of observed cognitive impairment - Alzheimer's disease (AD)",Numeric longitudinal," 1 = Primary
+2 = Contributing
+3 = Non-contributing
+7 = Cognitively impaired but not AD diagnosis
+8 = Diagnosis of normal cognition",0.0
+DEMO,NACCAPOE,,,,,0.23252771618625276
+CDF,MEMORY,Original UDS question,Memory,Numeric longitudinal," 0.0 = No impairment
+0.5 = Questionable impairment
+1.0 = Mild impairment
+2.0 = Moderate impairment
+3.0 = Severe impairment",0.0
+CDF,ORIENT,Original UDS question,Orientation,Numeric longitudinal," 0.0 = No impairment
+0.5 = Questionable impairment
+1.0 = Mild impairment
+2.0 = Moderate impairment
+3.0 = Severe impairment",0.0
+CDF,JUDGMENT,Original UDS question,Judgment and problem-solving,Numeric longitudinal," 0.0 = No impairment
+0.5 = Questionable impairment
+1.0 = Mild impairment
+2.0 = Moderate impairment
+3.0 = Severe impairment",0.0
+CDF,COMMUN,Original UDS question,Community affairs,Numeric longitudinal," 0.0 = No impairment
+0.5 = Questionable impairment
+1.0 = Mild impairment
+2.0 = Moderate impairment
+3.0 = Severe impairment",0.0
+CDF,HOMEHOBB,Original UDS question,Home and hobbies,Numeric longitudinal," 0.0 = No impairment
+0.5 = Questionable impairment
+1.0 = Mild impairment
+2.0 = Moderate impairment
+3.0 = Severe impairment",0.0
+CDF,PERSCARE,Original UDS question,Personal care,Numeric longitudinal," 0.0 = No impairment
+1.0 = Mild impairment
+2.0 = Moderate impairment
+3.0 = Severe impairment",0.0
+CDF,CDRSUM,Original UDS question,Standard CDR sum of boxes,Numeric longitudinal," 0.0, 0.5, 1.0, 1.5, ..., 18.0 
+(scores of 16.5 and 17.5 not possible)",0.0
+CDF,CDRGLOB,Original UDS question,Global CDR,Numeric longitudinal," 0.0 = No impairment
+0.5 = Questionable impairment
+1.0 = Mild impairment
+2.0 = Moderate impairment
+3.0 = Severe impairment",0.0
+CDF,COMPORT,Original UDS question,"Behavior, comportment, and personality",Numeric longitudinal," 0.0 = No impairment
+0.5 = Questionable impairment
+1.0 = Mild impairment
+2.0 = Moderate impairment
+3.0 = Severe impairment
+  -4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.35019955654102
+CDF,CDRLANG,Original UDS question,Language,Numeric longitudinal," 0.0 = No impairment
+0.5 = Questionable impairment
+1.0 = Mild impairment
+2.0 = Moderate impairment
+3.0 = Severe impairment
+  -4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.35019955654102
+GDS,SATIS,Original UDS question,Are you basically satisfied with your life?,Numeric longitudinal," 0 = Yes
+1 = No
+9 = Did not answer
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.07503325942350332
+GDS,DROPACT,Original UDS question,Have you dropped many of your activities and interests?,Numeric longitudinal," 0 = No
+1 = Yes
+9 = Did not answer
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.07518847006651885
+GDS,EMPTY,Original UDS question,Do you feel that your life is empty?,Numeric longitudinal," 0 = No
+1 = Yes
+9 = Did not answer
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.07509977827050998
+GDS,BORED,Original UDS question,Do you often get bored?,Numeric longitudinal," 0 = No
+1 = Yes
+9 = Did not answer
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.07498891352549888
+GDS,SPIRITS,Original UDS question,Are you in good spirits most of the time?,Numeric longitudinal," 0 = Yes
+1 = No
+9 = Did not answer
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.07536585365853658
+GDS,AFRAID,Original UDS question,Are you afraid that something bad is going to happen to you?,Numeric longitudinal," 0 = No
+1 = Yes
+9 = Did not answer
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.07556541019955654
+GDS,HAPPY,Original UDS question,Do you feel happy most of the time?,Numeric longitudinal," 0 = Yes
+1 = No
+9 = Did not answer
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.07598669623059867
+GDS,HELPLESS,Original UDS question,Do you often feel helpless?,Numeric longitudinal," 0 = No
+1 = Yes
+9 = Did not answer
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.07536585365853658
+GDS,STAYHOME,Original UDS question,"Do you prefer to stay at home, rather than going out and doing new things?",Numeric longitudinal," 0 = No
+1 = Yes
+9 = Did not answer
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.07669623059866962
+GDS,MEMPROB,Original UDS question,Do you feel you have more problems with memory than most?,Numeric longitudinal," 0 = No
+1 = Yes
+9 = Did not answer
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.07789356984478936
+GDS,WONDRFUL,Original UDS question,Do you think it is wonderful to be alive now?,Numeric longitudinal," 0 = Yes
+1 = No
+9 = Did not answer
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.07603104212860311
+GDS,WRTHLESS,Original UDS question,"Do you feel pretty worthless the way you 
+are now?",Numeric longitudinal," 0 = No
+1 = Yes
+9 = Did not answer
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.0756319290465632
+GDS,ENERGY,Original UDS question,Do you feel full of energy?,Numeric longitudinal," 0 = Yes
+1 = No
+9 = Did not answer
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.07580931263858093
+GDS,HOPELESS,Original UDS question,Do you feel that your situation is hopeless?,Numeric longitudinal," 0 = No
+1 = Yes
+9 = Did not answer
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.07549889135254989
+GDS,BETTER,Original UDS question,Do you think that most people are better off than you are?,Numeric longitudinal," 0 = No
+1 = Yes
+9 = Did not answer
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.0762749445676275
+GDS,NACCGDS,NACC derived variable,Total GDS Score,Numeric longitudinal," 0 - 15
+88 = Could not be calculated
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.07470066518847007
+FAS,BILLS,Original UDS question,"In the past four weeks, did the subject have any difficulty or need help with: Writing checks, paying bills, or balancing a checkbook",Numeric longitudinal," 0 = Normal
+1 = Has difficulty, but does by self
+2 = Requires assistance
+3 = Dependent
+8 = Not applicable (e.g., never did)
+9 = Unknown
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.11177383592017738
+FAS,TAXES,Original UDS question,"In the past four weeks, did the subject have any difficulty or need help with: Assembling tax records, business affairs, or other papers",Numeric longitudinal," 0 = Normal
+1 = Has difficulty, but does by self
+2 = Requires assistance
+3 = Dependent
+8 = Not applicable (e.g., never did)
+9 = Unknown
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question.",0.14607538802660755
+FAS,SHOPPING,Original UDS question,"In the past four weeks, did the subject have any difficulty or need help with: Shopping alone for clothes, household necessities, or groceries",Numeric longitudinal," 0 = Normal
+1 = Has difficulty, but does by self
+2 = Requires assistance
+3 = Dependent
+8 = Not applicable (e.g., never did)
+9 = Unknown
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.05372505543237251
+FAS,GAMES,Original UDS question,"In the past four weeks, did the subject have any difficulty or need help with: Playing a game of skill such as bridge or chess, working on a hobby",Numeric longitudinal," 0 = Normal
+1 = Has difficulty, but does by self
+2 = Requires assistance
+3 = Dependent
+8 = Not applicable (e.g., never did)
+9 = Unknown
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.11995565410199556
+FAS,STOVE,Original UDS question,"In the past four weeks, did the subject have any difficulty or need help with: Heating water, making a cup of coffee, turning off the stove",Numeric longitudinal," 0 = Normal
+1 = Has difficulty, but does by self
+2 = Requires assistance
+3 = Dependent
+8 = Not applicable (e.g., never did)
+9 = Unknown
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.048736141906873615
+FAS,MEALPREP,Original UDS question,"In the past four weeks, did the subject have any difficulty or need help with: Preparing a balanced meal",Numeric longitudinal," 0 = Normal
+1 = Has difficulty, but does by self
+2 = Requires assistance
+3 = Dependent
+8 = Not applicable (e.g., never did)
+9 = Unknown
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.11946784922394678
+FAS,EVENTS,Original UDS question,"In the past four weeks, did the subject have any difficulty or need help with: Keeping track of current events",Numeric longitudinal," 0 = Normal
+1 = Has difficulty, but does by self
+2 = Requires assistance
+3 = Dependent
+8 = Not applicable (e.g., never did)
+9 = Unknown
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.04303769401330377
+FAS,PAYATTN,Original UDS question,"In the past four weeks, did the subject have any difficulty or need help with: Paying attention to and understanding a TV program, book, or magazine",Numeric longitudinal," 0 = Normal
+1 = Has difficulty, but does by self
+2 = Requires assistance
+3 = Dependent
+8 = Not applicable (e.g., never did)
+9 = Unknown
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.03802660753880266
+FAS,REMDATES,Original UDS question,"In the past four weeks, did the subject have any difficulty or need help with: Remembering appointments, family occasions, holidays, medications",Numeric longitudinal," 0 = Normal
+1 = Has difficulty, but does by self
+2 = Requires assistance
+3 = Dependent
+8 = Not applicable (e.g., never did)
+9 = Unknown
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.03660753880266075
+FAS,TRAVEL,Original UDS question,"In the past four weeks, did the subject have any difficulty or need help with: Traveling out of the neighborhood, driving, or arranging to take public transportation",Numeric longitudinal," 0 = Normal
+1 = Has difficulty, but does by self
+2 = Requires assistance
+3 = Dependent
+8 = Not applicable (e.g., never did)
+9 = Unknown
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.04330376940133038
+NPI,DEL,Original UDS question,Delusions in the last month,Numeric longitudinal," 0 = No
+1 = Yes
+9 = Unknown
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.05443458980044346
+NPI,DELSEV,Original UDS question,Delusions severity,Numeric longitudinal," 1 = Mild (noticeable, but not a significant change)
+2 = Moderate (significant, but not a dramatic change)
+3 = Severe (very marked or prominent; a dramatic change)
+8 = Not applicable, no delusions reported
+9 = Unknown
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.9289356984478936
+NPI,HALL,Original UDS question,Hallucinations in the last month,Numeric longitudinal," 0 = No
+1 = Yes
+9 = Unknown
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.05432372505543237
+NPI,HALLSEV,Original UDS question,Hallucinations severity,Numeric longitudinal," 1 = Mild (noticeable, but not a significant 
+	change)
+2 = Moderate (significant, but not a dramatic change)
+3 = Severe (very marked or prominent; a dramatic change)
+8 = Not applicable, no hallucinations reported
+9 = Unknown
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.9572062084257206
+NPI,AGIT,Original UDS question,Agitation or aggression in the last month,Numeric longitudinal," 0 = No
+1 = Yes
+9 = Unknown
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.05392461197339246
+NPI,AGITSEV,Original UDS question,Agitation or aggression severity,Numeric longitudinal," 1 = Mild (noticeable, but not a significant 
+	change)
+2 = Moderate (significant, but not a dramatic change)
+3 = Severe (very marked or prominent; a dramatic change)
+8 = Not applicable, no agitation or aggression reported
+9 = Unknown
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.8139467849223947
+NPI,DEPD,Original UDS question,Depression or dysphoria in the last month,Numeric longitudinal," 0 = No
+1 = Yes
+9 = Unknown
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.054523281596452325
+NPI,DEPDSEV,Original UDS question,Depression or dysphoria severity,Numeric longitudinal," 1 = Mild (noticeable, but not a significant change)
+2 = Moderate (significant, but not a dramatic change)
+3 = Severe (very marked or prominent; a dramatic change)
+8 = Not applicable, no depression or dysphoria reported
+9 = Unknown
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.7318625277161862
+NPI,ANX,Original UDS question,Anxiety in the last month,Numeric longitudinal," 0 = No
+1 = Yes
+9 = Unknown
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.05434589800443459
+NPI,ANXSEV,Original UDS question,Anxiety severity,Numeric longitudinal," 1 = Mild (noticeable, but not a significant change)
+2 = Moderate (significant, but not a dramatic change)
+3 = Severe (very marked or prominent; a dramatic change)
+8 = Not applicable, no anxiety reported
+9 = Unknown
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.7607760532150776
+NPI,ELAT,Original UDS question,Elation or euphoria in the last month,Numeric longitudinal," 0 = No
+1 = Yes
+9 = Unknown
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.05405764966740576
+NPI,ELATSEV,Original UDS question,Elation or euphoria severity,Numeric longitudinal," 1 = Mild (noticeable, but not a significant change)
+2 = Moderate (significant, but not a dramatic change)
+3 = Severe (very marked or prominent; a dramatic change)
+8 = Not applicable, no elation or euphoria reported
+9 = Unknown
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.9671840354767184
+NPI,APA,Original UDS question,Apathy or indifference in the last month,Numeric longitudinal," 0 = No
+1 = Yes
+9 = Unknown
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.05427937915742794
+NPI,APASEV,Original UDS question,Apathy or indifference severity,Numeric longitudinal," 1 = Mild (noticeable, but not a significant change)
+2 = Moderate (significant, but not a dramatic change)
+3 = Severe (very marked or prominent; a dramatic change)
+8 = Not applicable, no apathy or indifference reported
+9 = Unknown
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.775920177383592
+NPI,DISN,Original UDS question,Disinhibition in the last month,Numeric longitudinal," 0 = No
+1 = Yes
+9 = Unknown
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.05416851441241685
+NPI,DISNSEV,Original UDS question,Disinhibition severity,Numeric longitudinal," 1 = Mild (noticeable, but not a significant change)
+2 = Moderate (significant, but not a dramatic change)
+3 = Severe (very marked or prominent; a dramatic change)
+8 = Not applicable, no disinhibition reported
+9 = Unknown
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.8794678492239468
+NPI,IRR,Original UDS question,Irritability or lability in the last month,Numeric longitudinal," 0 = No
+1 = Yes
+9 = Unknown
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.054124168514412416
+NPI,IRRSEV,Original UDS question,Irritability or lability severity,Numeric longitudinal," 1 = Mild (noticeable, but not a significant change)
+2 = Moderate (significant, but not a dramatic change)
+3 = Severe (very marked or prominent; a dramatic change)
+8 = Not applicable, no irritability or lability reported
+9 = Unknown
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.7491352549889135
+NPI,MOT,Original UDS question,Motor disturbance in the last month,Numeric longitudinal," 0 = No
+1 = Yes
+9 = Unknown
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.054501108647450114
+NPI,MOTSEV,Original UDS question,Motor disturbance severity,Numeric longitudinal," 1 = Mild (noticeable, but not a significant change)
+2 = Moderate (significant, but not a dramatic change)
+3 = Severe (very marked or prominent; a dramatic change)
+8 = Not applicable, no motor disturbance reported
+9 = Unknown
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.8934368070953437
+NPI,NITE,Original UDS question,Nighttime behaviors in the last month,Numeric longitudinal," 0 = No
+1 = Yes
+9 = Unknown
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.059778270509977825
+NPI,NITESEV,Original UDS question,Nighttime behaviors severity,Numeric longitudinal," 1 = Mild (noticeable, but not a significant change)
+2 = Moderate (significant, but not a dramatic change)
+3 = Severe (very marked or prominent; a dramatic change)
+8 = Not applicable, no nighttime behaviors reported
+9 = Unknown
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.7939246119733925
+NPI,APP,Original UDS question,Appetite and eating problems in the last month,Numeric longitudinal," 0 = No
+1 = Yes
+9 = Unknown
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.054767184035476715
+NPI,APPSEV,Original UDS question,Appetite and eating severity,Numeric longitudinal," 1 = Mild (noticeable, but not a significant 
+	change)
+2 = Moderate (significant, but not a dramatic change)
+3 = Severe (very marked or prominent; a dramatic change)
+8 = Not applicable, no appetite or eating problems reported
+9 = Unknown
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.8370288248337029
+NEURO,ANIMALS,Original UDS question,"Animals - Total number of animals named 
+in 60 seconds",Numeric longitudinal," 0-77	 
+95 = Physical problem
+96 = Cognitive/behavior problem
+97 = Other problem
+98 = Verbal refusal
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.07643015521064302
+NEURO,VEG,Original UDS question,"Vegetables - Total number of vegetables 
+named in 60 seconds",Numeric longitudinal," 0-77	 
+95 = Physical problem
+96 = Cognitive/behavior problem
+97 = Other problem
+98 = Verbal refusal
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.0897339246119734
+NEURO,TRAILA,Original UDS question,"Trail Making Test Part A - Total number 
+of seconds to complete",Numeric longitudinal," 0 - 150	 
+995 = Physical problem
+996 = Cognitive/behavior problem
+997 = Other problem
+998 = Verbal refusal
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.12008869179600887
+NEURO,TRAILARR,Original UDS question,Part A - Number of commission errors,Numeric longitudinal," 0 - 40
+95 = Physical problem	 
+96 = Cognitive/behavior problem
+97 = Other problem
+98 = Verbal refusal
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.4258980044345898
+NEURO,TRAILALI,Original UDS question,Part A - Number of correct lines,Numeric longitudinal," 0-24	 
+95 = Physical problem	 
+96 = Cognitive/behavior problem
+97 = Other problem
+98 = Verbal refusal
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.4228381374722838
+NEURO,TRAILB,Original UDS question,"Trail Making Test Part B - Total 
+number of seconds to complete",Numeric longitudinal," 0-300	 
+995 = Physical problem
+996 = Cognitive/behavior problem
+997 = Other problem
+998 = Verbal refusal
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.2067849223946785
+NEURO,TRAILBRR,Original UDS question,Part B - Number of commission errors,Numeric longitudinal," 0-40	 
+95 = Physical problem	 
+96 = Cognitive/behavior problem
+97 = Other problem
+98 = Verbal refusal
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.4826607538802661
+NEURO,TRAILBLI,Original UDS question,Part B - Number of correct lines,Numeric longitudinal," 0-24	 
+95 = Physical problem	 
+96 = Cognitive/behavior problem
+97 = Other problem
+98 = Verbal refusal
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.4827494456762749
+NEURO,NACCMMSE,NACC derived variable,Total MMSE score (using D-L-R-O-W),Numeric longitudinal," 0 - 30
+88 = Score not calculated; missing at least
+one MMSE item
+95 = Physical problem
+96 = Cognitive/behavior problem
+97 = Other problem
+98 = Verbal refusal
+-4 = Not available: UDS form submitted
+did not collect data in this way, or a
+skip pattern precludes response to this
+question",0.30643015521064304
+NEURO,LOGIMEM,Original UDS question,Total number of story units recalled from this current test administration,Numeric longitudinal," 0 - 25
+95 = Physical problem
+96 = Cognitive/behavior problem
+97 = Other problem
+98 = Verbal refusal
+-4 = Not available: UDS form submitted
+did not collect data in this way, or a
+skip pattern precludes response to this
+question",0.3479822616407982
+NEURO,MEMUNITS,Original UDS question,Logical Memory IIA - Delayed - Total number of story units recalled,Numeric longitudinal," 0 - 25
+95 = Physical problem
+96 = Cognitive/behavior problem
+97 = Other problem
+98 = Verbal refusal
+-4 = Not available: UDS form submitted
+did not collect data in this way, or a
+skip pattern precludes response to this
+question",0.3497339246119734
+NEURO,MEMTIME,Original UDS question,Logical Memory IIA - Delayed - Time elapsed since Logical Memory IA - Immediate,Numeric longitudinal," 0 - 85
+99 = Unknown
+-4 = Not available: UDS form submitted
+did not collect data in this way, or a
+skip pattern precludes response to this
+question",0.36144124168514413
+NEURO,DIGIF,Original UDS question,Digit span forward trials correct,Numeric longitudinal," 0 - 12
+95 = Physical problem
+96 = Cognitive/behavior problem
+97 = Other problem
+98 = Verbal refusal
+-4 = Not available: UDS form submitted
+did not collect data in this way, or a
+skip pattern precludes response to this
+question",0.338669623059867
+NEURO,DIGIFLEN,Original UDS question,Digit span forward length,Numeric longitudinal," 0-8
+95 = Physical problem
+96 = Cognitive/behavior problem
+97 = Other problem
+98 = Verbal refusal
+-4 = Not available: UDS form submitted
+did not collect data in this way, or a
+skip pattern precludes response to this
+question",0.33895787139689576
+NEURO,DIGIB,Original UDS question,Digit span backward trials correct,Numeric longitudinal," 0 - 12
+95 = Physical problem
+96 = Cognitive/behavior problem
+97 = Other problem
+98 = Verbal refusal
+-4 = Not available: UDS form submitted
+did not collect data in this way, or a
+skip pattern precludes response to this
+question",0.3410864745011086
+NEURO,DIGIBLEN,Original UDS question,Digit span backward length,Numeric longitudinal," 0-8
+95 = Physical problem
+96 = Cognitive/behavior problem
+97 = Other problem
+98 = Verbal refusal
+-4 = Not available: UDS form submitted
+did not collect data in this way, or a
+skip pattern precludes response to this
+question",0.3411751662971175
+NEURO,BOSTON,Original UDS question,Boston Naming Test (30) - Total score,Numeric longitudinal," 0 - 30
+95 = Physical problem
+96 = Cognitive/behavior problem
+97 = Other problem
+98 = Verbal refusal
+-4 = Not available: UDS form submitted
+did not collect data in this way, or a
+skip pattern precludes response to this
+question",0.3466962305986696
+NEURO,MOCATOTS,Original UDS question,MoCA Total Raw Score - uncorrected,Numeric longitudinal," 0 - 30	 
+88 = Item(s) or whole test not administered
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.7492461197339246
+NEURO,DIGFORCT,Original UDS question,"Number Span Test: Forward - Number 
+of correct trials",Numeric longitudinal," 0 - 14	 
+95 = Physical problem
+96 = Cognitive/behavior problem
+97 = Other problem
+98 = Verbal refusal
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.7452328159645233
+NEURO,DIGFORSL,Original UDS question,"Number Span Test: Forward - Longest 
+span forward",Numeric longitudinal," 0	 
+3 - 9
+95 = Physical problem
+96 = Cognitive/behavior problem
+97 = Other problem
+98 = Verbal refusal
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.7452328159645233
+NEURO,DIGBACCT,Original UDS question,"Number Span Test: Backward - Number 
+of correct trials",Numeric longitudinal," 0 - 14	 
+95 = Physical problem
+96 = Cognitive/behavior problem
+97 = Other problem
+98 = Verbal refusal
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.7459866962305987
+NEURO,DIGBACLS,Original UDS question,"Number Span Test: Backward - Longest 
+span backward",Numeric longitudinal," 0	 
+2 - 8
+95 = Physical problem
+96 = Cognitive/behavior problem
+97 = Other problem
+98 = Verbal refusal
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.7459866962305987
+NEURO,CRAFTDRE,Original UDS question,"Craft Story 21 Recall (Delayed) - Total 
+story units recalled, paraphrase scoring",Numeric longitudinal," 0-25
+95 = Physical problem
+96 = Cognitive/behavior problem
+97 = Other problem
+98 = Verbal refusal
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.7502217294900222
+NEURO,MINTTOTS,Original UDS question,"Multilingual Naming Test (MINT) - 
+Total score",Numeric longitudinal," 0-32	 
+95 = Physical problem
+96 = Cognitive/behavior problem
+97 = Other problem
+98 = Verbal refusal
+-4 = Not available: UDS form submitted did not collect data in this way, or a skip pattern precludes response to this question",0.7529046563192905
