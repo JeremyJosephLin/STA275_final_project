@@ -1,0 +1,55 @@
+---
+title: "result"
+author: "Jeremy Lin"
+date: "5/18/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(knitr)
+```
+
+```{r }
+result1 <- readRDS("uds_lasso/result1.RDS")
+#result2 <- readRDS("uds_mri_lasso/result2.RDS")
+#result3 <- readRDS("all_lasso/result3.RDS")
+hold <- result1[[1]]$Exlasso_min
+result1[[1]]$Exlasso_min <- result1[[1]]$Exlasso_1se
+result1[[1]]$Exlasso_1se <- hold
+
+hold <- result1[[3]]$Exlasso_min
+result1[[3]]$Exlasso_min <- result1[[3]]$Exlasso_1se
+result1[[3]]$Exlasso_1se <- hold
+```
+
+# UDS only
+### Group and exclusive Lasso for five level of NACCAD
+
+- In group lasso, $\lambda_{min}$ = `r result1[[2]]$glasso[2]`, and $\lambda_{1se}$ = `r result1[[2]]$glasso[1]`
+- In exclusive lasso, $\lambda_{min}$ = `r result1[[2]]$exlasso[1]`, and $\lambda_{1se}$ = `r result1[[2]]$exlasso[2]`
+
+```{r}
+kable(result1[[1]])
+```
+
+
+```{r}
+tab1 <- result1[[1]]
+var_selected <- tab1[tab1$Exlasso_1se != 0,]$variable
+cat("In exclusive lasso, the variables being selected are", as.character(var_selected))
+cat("In total, ", length(var_selected), "out of", dim(tab1)[1])
+```
+
+### Group and exclusive Lasso for three level of NACCAD
+
+```{r}
+kable(result1[[3]])
+```
+
+```{r}
+tab2 <- result1[[3]]
+var_selected <- tab2[tab2$Exlasso_1se != 0,]$variable
+cat("In exclusive lasso, the variables being selected are", as.character(var_selected))
+cat("In total, ", length(var_selected), "out of", dim(tab2)[1])
+```
